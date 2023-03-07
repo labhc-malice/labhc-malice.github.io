@@ -1,4 +1,45 @@
-# al-folio
+
+# MALICE blog
+
+Website for the workgroup around the MALICE project.
+
+## Contributing
+
+
+### I want to edit/add a post
+
+Most pages are blog posts and are located in `_posts`.
+
+
+### I want to add an element in the bibliography/publication list
+
+There are two bibtexs
+- one for our publications: `_bibliography/publications.bib`
+- one for references from the literature: `_bibliography/papers.bib`
+
+In the bibtex you can have a `preview` key, that will be used for showing an image (or gif) in the publication list.
+Use e.g. `preview={funky.gif}` and create your file in `assets/img/publication_preview/funky.gif`.
+
+The bibtex key convention is `YEAR_Lastname_F_T-venue_acronym` where
+- `F` is the first letter of the firstname of the first author
+- `T` is the type of publication (j: journal, p: proceedings)
+- `venue` is the venue acronym
+- `acronym` is the paper method acronym or the first letters of significant words of the title
+
+
+---
+---
+---
+---
+
+# Based on: al-folio (README from ai-folio below)
+
+---
+---
+---
+---
+
+## ai-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
