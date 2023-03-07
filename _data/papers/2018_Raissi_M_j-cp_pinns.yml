@@ -1,0 +1,6 @@
+id: 2018_Raissi_M_j-cp_pinns
+shortname: PINN
+name: physics-informed neural network
+mapping_mode: pinn # A repenser  
+pde: True
+ode: True
