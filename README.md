@@ -1,7 +1,7 @@
 
 # MALICE blog
 
-Website for the workgroup around the MALICE project.
+[Website](//labhc-malice.github.io/review-blogpost/) for the workgroup around the MALICE project.
 
 ## Contributing
 
