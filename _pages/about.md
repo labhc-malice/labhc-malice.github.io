@@ -4,7 +4,6 @@ title: About
 permalink: /
 subtitle: MAchine Learning with Integration of surfaCe Engineering knowledge
 
-TODO, <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -21,6 +20,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-TODO
+TODO, <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 ... this theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the one(s) below.
