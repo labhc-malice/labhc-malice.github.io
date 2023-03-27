@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: TODO, <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: MAchine Learning with Integration of surfaCe Engineering knowledge
+
+TODO, <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
