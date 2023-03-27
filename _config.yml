@@ -117,7 +117,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog and Papers # blog_name will be displayed in your blog page
-blog_nav_title: blog
+blog_nav_title: Blog
 blog_description: Explanations and reflexions around some papers.
 permalink: /blog/:year/:title/
 
