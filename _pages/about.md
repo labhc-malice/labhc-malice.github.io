@@ -20,6 +20,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-TODO, <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+The goal of the MALICE project-team is to combine the interdisciplinary skills present at the Hubert Curien lab in statistical learning and laser-matter interaction to foster the development of new joint methodological contributions at the interface between Machine Learning and Surface Engineering. 
 
-... this theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the one(s) below.
+As such, MALICE is inherently rooted at the interface of Applied Mathematics, Statistical Learning Theory, Optimization, Physics and Differentiable Simulation.
