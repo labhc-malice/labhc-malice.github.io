@@ -22,4 +22,4 @@ social: true  # includes social icons at the bottom of the page
 
 The goal of the MALICE project-team is to combine the interdisciplinary skills present at the Hubert Curien lab in statistical learning and laser-matter interaction to foster the development of new joint methodological contributions at the interface between Machine Learning and Surface Engineering. 
 
-As such, MALICE is inherently rooted at the interface of Applied Mathematics, Statistical Learning Theory, Optimization, Physics and Differentiable Simulation.
+As such, MALICE is inherently rooted at the crossroads of Applied Mathematics, Statistical Learning Theory, Optimization, Physics and Differentiable Simulation.
