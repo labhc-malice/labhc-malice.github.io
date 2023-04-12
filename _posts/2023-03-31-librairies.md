@@ -12,7 +12,7 @@ related_posts: false
 
 **NVIDIA Modulus.** NVIDIA Modulus is an open-source framework for building, training, and fine-tuning Physics-ML models with a simple Python interface.<br>
 <a href="https://developer.nvidia.com/modulus">Website</a>
-<center>
-	<img src="https://developer.nvidia.com/sites/default/files/akamai/modulus/nvidia-modulus-850x720.svg"></img>
-</center>
+<div class="fake-img l-body">
+  <p><img src="https://developer.nvidia.com/sites/default/files/akamai/modulus/nvidia-modulus-850x720.svg"></p>
+</div>
 
