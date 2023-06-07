@@ -58,7 +58,8 @@ _styles: >
   {{ reading.title }}
 </div>
 
-> <i class="fa-brands fa-github"></i> Code: {{ reading.code }}
+> <i class="far fa-file-pdf"></i> Paper: {{ reading.paper }}
+> <i class="fab fa-github"></i> Code: {{ reading.code }}
 
 {{ reading.content }}
 {% endfor %}
