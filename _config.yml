@@ -226,6 +226,10 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+  - scope:
+      path: "_bibliography/*.*"
+    values:
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
