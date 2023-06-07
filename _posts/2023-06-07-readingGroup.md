@@ -53,6 +53,7 @@ _styles: >
 ## 2023.06.05
 
 Self-Adaptive Physics-Informed Neural Networks using a Soft Attention Mechanism
+<d-cite key="2021_Mclenny_L_w_aaai-mlps_sapinns"></d-cite>
 
 - Keyword: SA-PINNs
 - Code: https://github.com/levimcclenny/SA-PINNs
