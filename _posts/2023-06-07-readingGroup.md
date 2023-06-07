@@ -54,7 +54,7 @@ _styles: >
 
 
 {% for reading in reading_list %}
-## {{ reading.date}}
+## {{ reading.date | date: "%Y.%m.%d"}}
 
 {{ reading.content }}
 {% endfor %}
