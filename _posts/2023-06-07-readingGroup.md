@@ -21,8 +21,6 @@ authors:
 
 bibliography: 2018-12-22-distill.bib
 
-toc
-	- name: test
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
