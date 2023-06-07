@@ -6,18 +6,18 @@ giscus_comments: false
 date: 2023-06-07
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Rémi Emonet
+    url: "https://home.heeere.com/"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+      name: LabHC, UJM
+  - name: Jordan Frecon
+    url: "https://jordan-frecon.com/"
     affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+      name: LabHC, UJM
+  - name: Amaury Habrard
+    url: "https://perso.univ-st-etienne.fr/habrarda/"
     affiliations:
-      name: IAS, Princeton
+      name: LabHC, UJM
 
 bibliography: 2018-12-22-distill.bib
 
@@ -56,14 +56,11 @@ _styles: >
 ## {{ reading.date | date: "%Y.%m.%d"}}
 <div class="publications">
 	{% bibliography -f papers -q @*[key={{reading.key}}]* %}
-</div>
-	
-<div style="text-align:center;font-size:large;font-weight:bold">
-  {{ reading.title }}
+	<a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
+	<a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
 </div>
 
-<a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
-<a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
+
 
 {{ reading.content }}
 {% endfor %}
