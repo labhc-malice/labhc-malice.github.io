@@ -21,6 +21,12 @@ authors:
 
 bibliography: 2018-12-22-distill.bib
 
+toc:
+{% assign reading_list = site.readings | sort: "date" | reverse %}
+{% for reading in reading_list %}
+  - name: {{ reading.date | date: "%Y.%m.%d"}}
+{% endfor %}
+
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
