@@ -56,7 +56,6 @@ _styles: >
 ## {{ reading.date | date: "%Y.%m.%d"}}
 <div class="publications">
 	{% bibliography -f papers -q @*[key={{reading.key}}]* %}
-	<a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
 	<a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
 </div>
 
