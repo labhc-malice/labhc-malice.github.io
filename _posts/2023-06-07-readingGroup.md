@@ -54,8 +54,11 @@ _styles: >
 {% assign reading_list = site.readings | sort: "date" | reverse %}
 {% for reading in reading_list %}
 ## {{ reading.date | date: "%Y.%m.%d"}}
-<div style="text-align:center;font-size:large;font-weight:bold">
+<div class="publications">
 	{% bibliography -f papers -q @*[key={{reading.key}}]* %}
+</div>
+	
+<div style="text-align:center;font-size:large;font-weight:bold">
   {{ reading.title }}
 </div>
 
