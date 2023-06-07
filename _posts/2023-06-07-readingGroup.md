@@ -58,8 +58,8 @@ _styles: >
   {{ reading.title }}
 </div>
 
-> <i class="far fa-file-pdf"></i> Paper: {{ reading.paper }}
-> <i class="fab fa-github"></i> Code: {{ reading.code }}
+> <a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
+> <a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
 
 {{ reading.content }}
 {% endfor %}
