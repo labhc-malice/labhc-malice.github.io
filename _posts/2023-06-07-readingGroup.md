@@ -1,9 +1,9 @@
 ---
 layout: distill
 title: Reading group
-description: Short 
-giscus_comments: true
-date: 2021-05-22
+description: Catch up what you have missed in our weekly reading groups
+giscus_comments: false
+date: 2023-06-07
 
 authors:
   - name: Albert Einstein
@@ -28,17 +28,7 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Equations
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
+  - name: 2023-06-05
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -60,25 +50,27 @@ _styles: >
 
 ---
 
-## 2023-06-05: Self-Adaptive Physics-Informed Neural Networks using a Soft Attention Mechanism
+## 2023-06-05
 
-- Published at: AAAI-MLPS 2021 (https://sites.google.com/view/aaai-mlps/proceedings?authuser=0)
+Self-Adaptive Physics-Informed Neural Networks using a Soft Attention Mechanism
+
+<d-cite key="2021_Mclenny_L_w_aaai-mlps_sapinns"></d-cite>
 - Keyword: SA-PINNs
 - Code: https://github.com/levimcclenny/SA-PINNs
         
-Context: PINNs may not fit the residual/boundary/initial conditions in "rapidly varying regions" depending on the PDE.
+**Context:** PINNs may not fit the residual/boundary/initial conditions in "rapidly varying regions" depending on the PDE.
 
-Proposed solution: The neural network learns which regions of the solution are difficult and is forced to focus on them. The self-adaptation weights specify a soft multiplicative soft attention mask, like the one used in computer vision. Each data point is associated with its self-adaptation weight.
+**Proposed solution:** The neural network learns which regions of the solution are difficult and is forced to focus on them. The self-adaptation weights specify a soft multiplicative soft attention mask, like the one used in computer vision. Each data point is associated with its self-adaptation weight.
 - Cons:
 	- 3 hyperparameters per training instance + one learning rate
 	- Max? A bit heuristic
 	- Need to always use the same colocation points
 
 
-Proposed solution (SGD); extension to handle varying colocation points. The basic idea is to use a spatial-temporal predictor of the value of self-adaptive weights for the newly sampled points. Resort to a Gaussian process.
+**Proposed solution (SGD):** extension to handle varying colocation points. The basic idea is to use a spatial-temporal predictor of the value of self-adaptive weights for the newly sampled points. Resort to a Gaussian process.
 
 
-Other previously proposed solutions: 
+**Other previously proposed solutions:** 
 - Non-adaptive Weighting [Colby et al., Computational Physics, 2021]: put premium in the loss for the initial 
 - Learning Rate Annealing [Wang et al., 2020]: the weights are learning rate coefficients that change for each epoch according to statistics calculated using the data of the back-propagation
 - Neural Tangent Kernel (NTK, https://en.wikipedia.org/wiki/Neural_tangent_kernel) Weighting: based on the evolution of the eigenvalues
