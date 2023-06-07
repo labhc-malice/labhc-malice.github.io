@@ -51,12 +51,15 @@ _styles: >
 ---
 
 
-
+{% assign reading_list = site.readings | sort: "date" | reverse %}
 {% for reading in reading_list %}
 ## {{ reading.date | date: "%Y.%m.%d"}}
 <div style="text-align:center">
   {{ reading.title }}
 </div>
+
+> <i class="fa-brands fa-github"></i> Code: {{ reading.code }}
+
 {{ reading.content }}
 {% endfor %}
 
