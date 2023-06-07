@@ -54,12 +54,12 @@ _styles: >
 {% assign reading_list = site.readings | sort: "date" | reverse %}
 {% for reading in reading_list %}
 ## {{ reading.date | date: "%Y.%m.%d"}}
-<div style="text-align:center">
+<div style="text-align:center;font-size:large">
   {{ reading.title }}
 </div>
 
-> <a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
-> <a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
+<a href="{{ reading.paper }}"><i class="far fa-file-pdf"></i> Paper</a><br>
+<a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
 
 {{ reading.content }}
 {% endfor %}
