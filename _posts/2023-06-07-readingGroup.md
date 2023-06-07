@@ -28,7 +28,10 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: 2023.06.05
+{% for reading in reading_list %}
+- name: {{ reading.date | date: "%Y.%m.%d"}}
+{% endfor %}
+
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
