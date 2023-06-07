@@ -27,6 +27,8 @@ bibliography: 2018-12-22-distill.bib
 #     for hyperlinks within the post to work correctly.
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+
+{% assign reading_list = site.readings | sort: "date" | reverse %}
 toc:
 {% for reading in reading_list %}
 - name: {{ reading.date | date: "%Y.%m.%d"}}
@@ -53,12 +55,13 @@ _styles: >
 
 ---
 
-{% assign reading_list = site.readings | sort: "date" | reverse %}
 
 
 {% for reading in reading_list %}
 ## {{ reading.date | date: "%Y.%m.%d"}}
-
+<div style="text-align:center">
+  {{ reading.title }}
+</div>
 {{ reading.content }}
 {% endfor %}
 
