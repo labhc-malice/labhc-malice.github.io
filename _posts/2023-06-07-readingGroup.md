@@ -21,6 +21,9 @@ authors:
 
 bibliography: 2018-12-22-distill.bib
 
+toc
+	- name: test
+
 # Optionally, you can add a table of contents to your post.
 # NOTES:
 #   - make sure that TOC names match the actual section names
@@ -56,10 +59,7 @@ _styles: >
 ## {{ reading.date | date: "%Y.%m.%d"}}
 <div class="publications">
 	{% bibliography -f papers -q @*[key={{reading.key}}]* %}
-	<a href="{{ reading.code }}"><i class="fab fa-github"></i> Code</a>
 </div>
-
-
 
 {{ reading.content }}
 {% endfor %}
