@@ -55,6 +55,7 @@ _styles: >
 {% for reading in reading_list %}
 ## {{ reading.date | date: "%Y.%m.%d"}}
 <div style="text-align:center;font-size:large;font-weight:bold">
+	{% bibliography -f papers -q @*[key={{reading.key}}]* %}
   {{ reading.title }}
 </div>
 
