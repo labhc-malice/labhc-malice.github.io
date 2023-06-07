@@ -4,6 +4,7 @@ title: Physics-based ML librairies
 description: Summary of existing Python librairies
 giscus_comments: false
 date: 2023-03-31
+tags: library
 related_posts: false
 ---
 
