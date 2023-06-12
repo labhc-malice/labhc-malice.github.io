@@ -101,7 +101,7 @@
         <d-citation-list></d-citation-list>
       </d-appendix>
 
-      <d-bibliography src="{{ page.path | prepend: '/assets/bibliography/' | relative_url | remove:'_post/' }}"></d-bibliography>
+      <d-bibliography src="{{ page.path | prepend: '/assets/bibliography/' | relative_url | remove:'_posts/' }}"></d-bibliography>
 
       {%- if site.disqus_shortname and page.disqus_comments -%}
         {% include disqus.html %}
