@@ -92,8 +92,9 @@
 	{% bibliography -f papers -q @*[key={{page.key}}]* %}
 	</div>
 	
-	<center><b>TLDR: </b><i> {{ page.tldr }}</i></center>
-
+	<div style="text-align: center; font-style: italic; width: 70%;">
+  	TLDR: {{ page.tldr }}
+	</div>
 
         {{ content }}
       </d-article>
