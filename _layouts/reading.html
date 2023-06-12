@@ -91,6 +91,8 @@
         <div class="publications">
 	{% bibliography -f papers -q @*[key={{page.key}}]* %}
 	</div>
+	
+	<center><b>TLDR: </b><i> {{ page.tldr }}</i></center>
 
 
         {{ content }}
