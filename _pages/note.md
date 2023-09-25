@@ -1,5 +1,5 @@
 ---
 permalink: /note/
-redirect_to:
-  - https://hackmd.io/@jordanfd/physicsml/edit
+redirect:   https://hackmd.io/@jordanfd/physicsml/edit
+layout:     redirect
 ---
