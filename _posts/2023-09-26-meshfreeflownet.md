@@ -33,7 +33,7 @@ where $$\mathcal{N}_i$$ is the set of neighboring vertices that bound $$x_i$$, $
 The parameters of the sub-networks are learned by minimizing a weighted combination of the PDE residual and the prediction error, both evaluated at the high-scale resolution. 
 
 <center>
-![MeshFreeFlowNet][{{site.url}}/assets/img/publication_preview/2020_Jiang_C_p-meshfreeflownet.png]
+<img src="{{site.url}}/assets/img/publication_preview/2020_Jiang_C_p-meshfreeflownet.png">
 </center>
 	
 - Pros:
