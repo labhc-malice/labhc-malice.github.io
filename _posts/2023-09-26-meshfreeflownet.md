@@ -36,7 +36,7 @@ The parameters of the sub-networks are learned by minimizing a weighted combinat
 
 
 <center>
-<img src="{{site.url}}/assets/img/publication_preview/2020_Jiang_C_p-meshfreeflownet.png" style="max-width: 80%">
+<img src="{{site.url}}/assets/img/publication_preview/2020_Jiang_C_p-meshfreeflownet.png" style="max-width: 80%;height: auto;border-radius: 10px">
 </center>
 	
 - Pros:
