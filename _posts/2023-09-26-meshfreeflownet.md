@@ -1,0 +1,46 @@
+---
+layout: reading
+key: 2020_Jiang_C_p-meshfreeflownet
+title: MeshFreeFlowNet
+description: A Physics-constrained super-resolution framework
+tldr: The paper introduces MeshfreeFlowNet, a deep learning-based super-resolution framework to generate continuous grid-free spatio-temporal solutions from the low-resolution inputs
+giscus_comments: false
+date: 2023-09-26
+tags: reading
+authors:
+  - name: Jordan Frecon
+    url: "https://jordan-frecon.com/"
+    affiliations:
+      name: LabHC, UJM
+---
+
+
+**Context:** 
+
+**Proposed solution:** MeshfreeFlowNet consists of two end-to-end
+trainable sub-networks, namely the Context Generation Network $$\Phi_{\theta_1}$$ and the Continuous Decoding Network $$\Phi_{\theta_2}$$, of parameters $$\theta_1$$ and $\theta_2$, respectively. The former produces a Latent Context Grid, by using a variant of the U-Net architecture, from a low-resolution physical input. Conversely, the latter generates physical quantities by means of a Multilayer Perceptron taking as input the concatenation of some context vector and a spatio-temporal coordinate.
+In order to generate physical quantites $$y_i$$ at some high-scale coordinate $$x_i$$, a trilinear interpolation of the output of the decoder is made :
+
+$$
+\begin{equation}
+y_i =\sum_{j \in \mathcal{N}_i} w_j \Phi_{\theta_2}\left(\frac{x_i-x_j}{\Delta x}, c_j\right)
+\end{equation}
+$$
+
+where $$\mathcal{N}_i$$ is the set of neighboring vertices that bound $$x_i$$, $$(x_j,c_j)$$ are the spatio-temporal coordinates and the latent context vector for the $$j$$-th vertex of the grid, and the $$w_j$$'s are interpolation weights.
+
+
+Both the neural network parameters $$w$$ and the self-adaptation weights are learned as follows
+
+$$
+\begin{equation}
+\min _{\boldsymbol{w}} \max _{\boldsymbol{\lambda}_r, \boldsymbol{\lambda}_b, \boldsymbol{\lambda}_0} \mathcal{L}\left(\boldsymbol{w}, \boldsymbol{\lambda}_r, \boldsymbol{\lambda}_b, \boldsymbol{\lambda}_0\right).
+\end{equation}
+$$
+
+- Pros:
+	- One can resort to autodifferentiation techniques to compute the PDE residual. since the spatio-temporal coordinates explicitly appear as inputs of the decoder.
+
+- Cons:
+	- For each query point $$x_i$$, one needs to performs $$\|\mathcal{N}_i\|$$ passes.
+
