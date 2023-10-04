@@ -4,6 +4,7 @@ key: 2020_Jiang_C_p-meshfreeflownet
 title: MeshFreeFlowNet
 description: A Physics-constrained super-resolution framework
 tldr: The paper introduces MeshfreeFlowNet, a deep learning-based super-resolution framework to generate continuous grid-free spatio-temporal solutions from the low-resolution inputs
+insider: REm[[[What happens if we do not pass the (relative) position to the second learned network? It might end up to be as accurate but with no computational drawback?]]]
 giscus_comments: false
 date: 2023-09-26
 tags: reading
@@ -21,7 +22,7 @@ authors:
 
 **Proposed solution:** MeshfreeFlowNet consists of two end-to-end
 trainable sub-networks, namely the Context Generation Network $$\Phi_{\theta_1}$$ and the Continuous Decoding Network $$\Phi_{\theta_2}$$, of parameters $$\theta_1$$ and $$\theta_2$$, respectively. The former produces a Latent Context Grid, by using a variant of the U-Net architecture, from a low-resolution physical input. Conversely, the latter generates physical quantities by means of a Multilayer Perceptron taking as input the concatenation of some context vector and a spatio-temporal coordinate.
-In order to generate physical quantites $$y_i$$ at some high-scale coordinate $$x_i$$, a trilinear interpolation of the output of the decoder is made :
+In order to generate physical quantities $$y_i$$ at some high-scale coordinate $$x_i$$, a trilinear interpolation of the output of the decoder is made :
 
 $$
 \begin{equation}
