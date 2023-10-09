@@ -32,7 +32,7 @@ The bibtex key convention is `YEAR_Lastname_F_T-venue_acronym` where
 ### I want to preview it, again, locally (see below for the required installation)
 
 ~~~bash
-bundle exec jekyll serve
+bundle exec jekyll serve -l
 ~~~
 
 ---
