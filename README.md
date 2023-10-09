@@ -27,6 +27,12 @@ The bibtex key convention is `YEAR_Lastname_F_T-venue_acronym` where
 - `acronym` is the paper method acronym or the first letters of significant words of the title
 
 
+### I want to preview it, again, locally (see below for the required installation)
+
+~~~bash
+bundle exec jekyll serve
+~~~
+
 ---
 ---
 ---
