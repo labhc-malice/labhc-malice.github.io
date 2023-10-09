@@ -10,6 +10,8 @@
 
 Most pages are blog posts and are located in `_posts`.
 
+For **maths equations**, you need to use two dollars, as in `$$\frac{1}{2}$$` ($$\frac{1}{2}$$).
+To have them as display, put it as a separate paragraph (so with empty lines before and after). 
 
 ### I want to add an element in the bibliography/publication list
 
