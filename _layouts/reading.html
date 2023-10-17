@@ -36,7 +36,7 @@
           ]
         }{% if forloop.last == false %},{% endif %}
         {% endfor %}
-      ],
+      ], // there already seem to be mathjax (and it seems to be the one that is used)
       "katex": {
         "delimiters": [
           {
@@ -99,7 +99,7 @@
 	<div id="insider" style="display: none; color: #f97316; font-style: italic; ">
   	Insider's notes: {{ page.insider }}
 	<br><br>
-        <style>#insider:target { display: inherit !important; scroll-padding-top: 100px; }</style>
+        <style>#insider:target { display: inherit !important; scroll-margin-top: 200px; }</style>
 	</div>
 
         {{ content }}

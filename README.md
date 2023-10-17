@@ -10,6 +10,8 @@
 
 Most pages are blog posts and are located in `_posts`.
 
+For **maths equations**, you need to use two dollars, as in `$$\frac{1}{2}$$` ($$\frac{1}{2}$$).
+To have them as display, put it as a separate paragraph (so with empty lines before and after). 
 
 ### I want to add an element in the bibliography/publication list
 
@@ -26,6 +28,12 @@ The bibtex key convention is `YEAR_Lastname_F_T-venue_acronym` where
 - `venue` is the venue acronym
 - `acronym` is the paper method acronym or the first letters of significant words of the title
 
+
+### I want to preview it, again, locally (see below for the required installation)
+
+~~~bash
+bundle exec jekyll serve -l
+~~~
 
 ---
 ---
