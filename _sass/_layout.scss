@@ -33,13 +33,12 @@ body.sticky-bottom-footer {
   }
 }
 
-body.logo-strip {
-            background-color: #ffffff; /* Set the background color to white */
+.logo-strip {
             padding: 20px; /* Adjust the padding as needed */
             text-align: center; /* Center the logos */
 }
 
-body.logo-strip img {
+.logo-strip img {
             height: 80px; /* Set a fixed height for all logos */
             margin: 10px; /* Add margin between logos if desired */
         }
