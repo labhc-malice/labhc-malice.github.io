@@ -1,21 +1,21 @@
 - firstname: Marc
   lastname: Sebban
-  title: Professor, Head of the MALICE team
+  title: Professor, FST (UJM), Head of the MALICE team
   url: https://perso.univ-st-etienne.fr/sebbanma/
 
 - firstname: Amaury
   lastname: Habrard
-  title: Professor
+  title: Professor, FST (UJM), Senior IUF Member
   url: https://perso.univ-st-etienne.fr/habrarda/
 
 - firstname: Rémi
   lastname: Emonet
-  title: Associate Professor
+  title: Associate Professor, FST (UJM), Junior IUF Member
   url: https://home.heeere.com/
   
 - firstname: Rémi
   lastname: Eyraud
-  title: Associate Professor
+  title: Associate Professor (HDR), IUT (UJM)
   url: https://remieyraud.github.io/index.html
   
 - firstname: Benjamin
@@ -25,7 +25,7 @@
   
 - firstname: Farah
   lastname: Cherfoui
-  title: Associate Professor
+  title: Associate Professor, FST (UJM)
   url: https://scholar.google.fr/citations?user=hgYecToAAAAJ&hl=fr
   
 - firstname: Quentin
@@ -35,5 +35,5 @@
   
 - firstname: Jordan
   lastname: Frecon-Deloire
-  title: Associate Professor
+  title: Associate Professor, Télécom Saint-Etienne (UJM)
   url: https://jordan-frecon.com/
