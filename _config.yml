@@ -116,8 +116,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_nav_title: Malice's Blog
+blog_name: Malice's Blog # blog_name will be displayed in your blog page
+blog_nav_title: Blog
 blog_description: Reports of seminars and reading groups
 permalink: /blog/:year/:title/
 
