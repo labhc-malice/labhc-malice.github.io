@@ -8,13 +8,6 @@ nav_order: 5
 ---
 
 
-<ul>
-  {% assign sorted_members = site.data.members | sort %}
-  {% for member in sorted_members %}
-    <li>{{ member.firstname }}</li>
-  {% endfor %}
-</ul>
-
 
 <ul>
   {% assign sorted_faculty = site.data.faculty | sort: 'lastname' %}
