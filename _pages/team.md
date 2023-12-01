@@ -24,7 +24,7 @@ nav_order: 5
 <h3>PhD students</h3>
 
 <ul>
-  {% assign phd_students = site.data.phdstudents %}
+  {% assign phd_students = site.data.phdstudents | sort: 'lastname' %}
   {% for student in phd_students %}
     <li>
       <strong><a href="{{ member.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
