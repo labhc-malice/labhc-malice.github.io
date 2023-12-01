@@ -3,7 +3,7 @@ layout: page
 permalink: /team/
 title: Team
 description: Members of the MALICE team
-nav: false
+nav: true
 nav_order: 5
 ---
 
@@ -28,7 +28,7 @@ nav_order: 5
   {% for student in phd_students %}
     <li>
       <strong><a href="{{ member.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
-      ({{ student.starting_date }} - {{ student.end_date}})
+      {{ student.starting_date }} - {{ student.end_date}}
       [{% for supervisor in student.supervisor %}{{ supervisor }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}]<br>
     </li>
   {% endfor %}
