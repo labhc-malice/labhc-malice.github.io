@@ -724,3 +724,34 @@ progress {
      display: block;
      height: inherit;
  }
+ 
+// Boxes
+
+.danger-box {
+    position: relative;
+    margin: 1.5em 0em;
+    padding: 10px 10px 8px;
+    border: solid 2px #CD5C5C;
+}
+
+
+.danger-box-titled {
+    position: relative;
+    margin: 1.5em 0em;
+    padding: 35px 10px 8px;
+    border: solid 2px #CD5C5C;
+}
+
+.danger-box-titled .title {
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    padding: 0px 10px;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #CD5C5C;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px 0px 0px 0px;
+}
