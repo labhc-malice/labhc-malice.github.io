@@ -1,3 +1,11 @@
+- firstname: Fayad
+  lastname: Ali Banna
+  url: 
+  supervisor: [R. Emonet, JP. Colombier, M. Sebban]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: True
+
 - firstname: Abdel-Rahim
   lastname: Mezidi
   url: 
