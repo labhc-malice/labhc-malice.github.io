@@ -38,11 +38,19 @@ nav_order: 5
 
 <ul>
   {% assign phd_students = site.data.phdstudents | sort: 'lastname' %}
+  {% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
   {% for student in phd_students %}
     <li>
       <strong><a href="{{ student.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
       {{ student.starting_date }} - {{ student.end_date}}
-      ({% for supervisor in student.supervisor %}{{ supervisor }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %})<br>
+      ({% for supervisor in student.supervisor %}
+        {% if supervisor contains faculty_lastnames %}
+          <u>{{ supervisor }}</u>
+        {% else %}
+          {{ supervisor }}
+        {% endif %}
+        {% if forloop.last %}{% else %}, {% endif %}
+      {% endfor %})<br>
     </li>
   {% endfor %}
 </ul>
