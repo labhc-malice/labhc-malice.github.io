@@ -2,14 +2,16 @@
 ---
 
 @string{j-cp = {Journal of Computational Physics,}}
-@string{entropy = {Entropy,}}
-@string{ecml = {Joint European Conference on Machine Learning and Knowledge Discovery in Databases}}
+@string{j-entropy = {Entropy}}
+@string{p-ecml = {ECML}}
+@string{p-iclr = {ICLR}}
 @string{j-acsnano = {ACS Nano}}
+@string{j-prl = {Physical Review Letters}}
 
 @article{2022_Brandao_E_j_-entropy_lpmsom,
   title={Learning PDE to model self-organization of matter},
   author={Brandao, Eduardo and Colombier, Jean-Philippe and Duffner, Stefan and Emonet, R{\'e}mi and Garrelie, Florence and Habrard, Amaury and Jacquenet, Fran{\c{c}}ois and Nakhoul, Anthony and Sebban, Marc},
-  journal={Entropy},
+  journal=j-entropy,
   volume={24},
   number={8},
   pages={1096},
@@ -24,7 +26,7 @@
 @inproceedings{2023_Brandao_E_p-ecml-is_nn_mdl,
   title={Is My Neural Net Driven by the MDL Principle?},
   author={Brandao, Eduardo and Duffner, Stefan and Emonet, R{\'e}mi and Habrard, Amaury and Jacquenet, Fran{\c{c}}ois and Sebban, Marc},
-  booktitle={ECML},
+  booktitle=p-ecml,
   pages={173--189},
   year={2023},
   organization={Springer},
@@ -33,7 +35,7 @@
 }
 
  
-@Article{2022_Ma_H_j-acsnano,
+@Article{2022_Ma_H_j-plicrpmoimdl,
   author    = {Ma, Hongfeng and Dalloz, Nicolas and Habrard, Amaury and Sebban, Marc and Sterl, Florian and Giessen, Harald and Hebert, Mathieu and Destouches, Nathalie},
   journal   = j-acsnano,
   title     = {Predicting Laser-Induced Colors of Random Plasmonic Metasurfaces and Optimizing Image Multiplexing Using Deep Learning},
@@ -44,5 +46,38 @@
   volume    = {16},
   doi       = {10.1021/acsnano.2c02235},
   publisher = {American Chemical Society (ACS)},
+  preview   = {2022_Ma_H_j-plicrpmoimdl.png},
+  pdf       = {https://pubs.acs.org/doi/epdf/10.1021/acsnano.2c02235}
+}
+
+@article{2023_Brandao_E_prl_lcglison,
+  title = {Learning Complexity to Guide Light-Induced Self-Organized Nanopatterns},
+  author = {Brandao, Eduardo and Nakhoul, Anthony and Duffner, Stefan and Emonet, R. and Garrelie, Florence and Habrard, Amaury and Jacquenet, Fran\ifmmode \mbox{\c{c}}\else \c{c}\fi{}ois and Pigeon, Florent and Sebban, Marc and Colombier, Jean-Philippe},
+  journal = j-prl,
+  volume = {130},
+  issue = {22},
+  pages = {226201},
+  numpages = {8},
+  year = {2023},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.130.226201},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.130.226201},
+  pdf = {https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.130.226201},
+  preview = {2023_Brandao_E_prl_lcglison.png}
+}
+
+@inproceedings{2023_Bouniot_Q_p-iclr_pcpodfd,
+  TITLE = {{Proposal-contrastive pretraining for object detection from fewer data}},
+  AUTHOR = {Bouniot, Quentin and Audigier, Romaric and Loesch, Ang{\'e}lique and Habrard, Amaury},
+  URL = {https://cea.hal.science/cea-04041965},
+  BOOKTITLE = p-iclr,
+  ADDRESS = {Kigali, Rwanda},
+  PAGES = {https://openreview.net/forum?id=gm0VZ-h-hPy},
+  YEAR = {2023},
+  MONTH = May,
+  PDF = {https://cea.hal.science/cea-04041965/file/full_paper.pdf},
+  HAL_ID = {cea-04041965},
+  HAL_VERSION = {v1},
 }
 
