@@ -4,13 +4,15 @@
   supervisor: [A. Habrard, J. Frecon-Deloire]
   starting_date: 2023
   end_date: 2026
+  team_thematic: True
   
 - firstname: Eduardo
   lastname: Brandao
   url: 
-  supervisor: [R. Emonet, F. Jacquenet, JP. Colombier.]
+  supervisor: [R. Emonet, F. Jacquenet, JP. Colombier]
   starting_date: 2020
   end_date: 2023
+  team_thematic: True
   
 - firstname: Thibault
   lastname: Girardin
@@ -18,6 +20,7 @@
   supervisor: [N. Destouches, A. Habrard]
   starting_date: 2021
   end_date: 2024
+  team_thematic: True
   
 - firstname: Robin
   lastname: Mermillod-Blondin
@@ -25,6 +28,7 @@
   supervisor: [N. Destouches, R. Emonet]
   starting_date: 2023
   end_date: 2026 
+  team_thematic: True
    
 - firstname: Volodimir
   lastname: Mitarchuk
@@ -32,3 +36,39 @@
   supervisor: [R. Eyraud, R. Emonet, A. Habrard]
   starting_date: 2021
   end_date: 2024
+  team_thematic: True
+  
+- firstname: Rehan
+  lastname: Jhuboo
+  url: 
+  supervisor: [A. Guignandon, M. Sebban]
+  starting_date: 2021
+  end_date: 2024
+  team_thematic: False
+  
+- firstname: S.
+  lastname: Chaki
+  url: 
+  supervisor: [R. Emonet, T. Fournel]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False
+  
+- firstname: Viktor
+  lastname: Mercklé
+  url: 
+  supervisor: [F. Iutzeler, A. Habrard]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False
+  
+- firstname: D.
+  lastname: Llavata
+  url: 
+  supervisor: [L. Bossuet, R. Eyraud, V. Grosso, E. Cagli]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False 
+  
+  
+  
