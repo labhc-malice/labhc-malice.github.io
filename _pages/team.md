@@ -26,10 +26,12 @@ nav_order: 5
 
 <ul>
   {% assign postdocs = site.data.postdocs | sort: 'lastname' %}
+  {% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
+  
   {% for postdoc in postdocs %}
     <li>
       <strong><a href="{{ postdoc.url }}" target="_blank">{{ postdoc.firstname }} {{ postdoc.lastname }}</a></strong>,
-      {{ postdoc.starting_date }} - {{ postdoc.end_date}}
+      {{ postdoc.starting_date }} - {{ postdoc.end_date }}
       ({% for supervisor in postdoc.supervisor %}
         {% assign supervisor_parts = supervisor | split: '. ' %}
         {% if supervisor_parts.size > 1 %}
@@ -44,11 +46,12 @@ nav_order: 5
           {{ supervisor }}
         {% endif %}
         
-        {% if forloop.last %}{% else %}, {% endif %}
+        {% unless forloop.last %}, {% endunless %}
       {% endfor %})<br>
     </li>
   {% endfor %}
 </ul>
+
 
 
 <h3>PhD students</h3>
