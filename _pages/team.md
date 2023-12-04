@@ -27,7 +27,7 @@ nav_order: 5
   {% for postdoc in postdocs %}
     <li>
       <strong><a href="{{ postdoc.url }}" target="_blank">{{ postdoc.firstname }} {{ postdoc.lastname }}</a></strong>,
-      {{ postdoc.starting_date }} - {{ postdoc.end_date}}
+      {{ postdoc.starting_date }} - {{ postdoc.end_date}},
       [{% for supervisor in postdoc.supervisor %}{{ supervisor }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}]<br>
     </li>
   {% endfor %}
@@ -41,7 +41,7 @@ nav_order: 5
   {% for student in phd_students %}
     <li>
       <strong><a href="{{ student.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
-      {{ student.starting_date }} - {{ student.end_date}}
+      {{ student.starting_date }} - {{ student.end_date}},
       [{% for supervisor in student.supervisor %}{{ supervisor }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}]<br>
     </li>
   {% endfor %}
