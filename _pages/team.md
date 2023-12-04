@@ -19,6 +19,8 @@ nav_order: 5
   {% endfor %}
 </ul>
 
+{% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
+
 
 <h3>Postdocs</h3>
 
@@ -28,7 +30,22 @@ nav_order: 5
     <li>
       <strong><a href="{{ postdoc.url }}" target="_blank">{{ postdoc.firstname }} {{ postdoc.lastname }}</a></strong>,
       {{ postdoc.starting_date }} - {{ postdoc.end_date}}
-      ({% for supervisor in postdoc.supervisor %}{{ supervisor }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %})<br>
+      ({% for supervisor in postdoc.supervisor %}
+        {% assign supervisor_parts = supervisor | split: '. ' %}
+        {% if supervisor_parts.size > 1 %}
+          {% assign supervisor_lastname = supervisor_parts[1] | remove: ' ' %}
+        {% else %}
+          {% assign supervisor_lastname = supervisor %}
+        {% endif %}
+        
+        {% if faculty_lastnames contains supervisor_lastname %}
+          <u>{{ supervisor }}</u>
+        {% else %}
+          {{ supervisor }}
+        {% endif %}
+        
+        {% if forloop.last %}{% else %}, {% endif %}
+      {% endfor %})<br>
     </li>
   {% endfor %}
 </ul>
@@ -38,8 +55,6 @@ nav_order: 5
 
 <ul>
   {% assign phd_students = site.data.phdstudents | sort: 'lastname' %}
-  {% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
-  
   {% for student in phd_students %}
     <li>
       <strong><a href="{{ student.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
