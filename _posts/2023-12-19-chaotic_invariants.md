@@ -3,8 +3,7 @@ layout: reading
 key: 2023_Jiang_R_p-neurips_tnopimca
 title: Neural operators and chaotic attractors
 description: Training neural operators to preserve invariant measures of chaotic attractors
-tldr: To ensure the neural operator respects the statistical properties of chaotic dynamics when trained on noisy
-data, the paper proposes two additional losses for matching relevant long-term statistics
+tldr: To ensure the neural operator respects the statistical properties of chaotic dynamics when trained on noisy data, the paper proposes two additional losses for matching relevant long-term statistics
 giscus_comments: false
 date: 2023-12-19
 tags: reading
@@ -28,4 +27,4 @@ Secondly, in the absence of prior knowledge, they use unsupervised contrastive l
 <center>
 <img src="{{site.url}}/assets/img/publication_preview/2023_Jiang_R_p-neurips_tnopimca.png" style="max-width: 80%;height: auto;border-radius: 10px">
 </center>
-	
+
