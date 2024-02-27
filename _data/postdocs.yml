@@ -1,3 +1,11 @@
+- firstname: Eduardo
+  lastname: Brandao
+  url: 
+  supervisor: [R. Emonet, M. Sebban, JP. Colombier]
+  starting_date: 2023
+  end_date: 2025
+  team_thematic: True
+  
 - firstname: Dakotah
   lastname: Lambert
   url: https://dakotahlambert.com/
