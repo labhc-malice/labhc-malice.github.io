@@ -7,7 +7,7 @@ subtitle: MAchine Learning with Integration of surfaCe Engineering knowledge
 
 profile:
   align: right
-  image: /logo/malice.png
+  image: /logo/malice.pdf
   image_circular: false # crops the image to make it circular
   address: >
     <p>Lab. Hubert Curien</p>
