@@ -28,6 +28,13 @@ The bibtex key convention is `YEAR_Lastname_F_T-venue_acronym` where
 - `venue` is the venue acronym
 - `acronym` is the paper method acronym or the first letters of significant words of the title
 
+### I want to update the list of publications from labmetry
+
+Unfortunately, this needs a script to be run (labmetry disallow access from another site in the browser), so just run
+
+```bash
+./bin/labmetry_get.sh
+```
 
 ### I want to preview it, again, locally (see below for the required installation)
 
