@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Group's publications in reversed chronological order.
-years: [2023,2022]
+description: Group's publications in reversed chronological order (exhaustive list at the bottom).
+years: [2024,2023]
 nav: true
 nav_order: 1
 ---
@@ -16,3 +16,16 @@ nav_order: 1
 {% endfor %}
 
 </div>
+<div id="labmetry">
+  <hr/>
+  <h4>Exhaustive consolidated list (automatic export)</h4>
+    {% include labmetry_raw.html %}
+</div>
+<style>
+  #labmetry {
+    font-size: 80%;
+    h2 {
+      font-size: 100%;
+    }
+  }
+</style>
