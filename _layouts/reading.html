@@ -36,7 +36,7 @@
           ]
         }{% if forloop.last == false %},{% endif %}
         {% endfor %}
-      ], // there already seem to be mathjax (and it seems to be the one that is used)
+      ], {% comment %} there already seem to be mathjax (and it seems to be the one that is used) {% endcomment %}
       "katex": {
         "delimiters": [
           {
