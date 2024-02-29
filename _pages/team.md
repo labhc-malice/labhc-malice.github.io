@@ -79,6 +79,34 @@ nav_order: 5
   {% endfor %}
 </ul>
 
+<h3>Former PhD students</h3>
+
+<ul>
+  {% assign phd_students = site.data.formerphdstudents | sort: 'end_date' | reverse %}
+  {% for student in phd_students %}
+    <li>
+      <strong><a href="{{ student.url }}" target="_blank">{{ student.firstname }} {{ student.lastname }}</a></strong>,
+      {{ student.starting_date }} - {{ student.end_date}}
+      ({% for supervisor in student.supervisor %}
+        {% assign supervisor_parts = supervisor | split: '. ' %}
+        {% if supervisor_parts.size > 1 %}
+          {% assign supervisor_lastname = supervisor_parts[1] | remove: ' ' %}
+        {% else %}
+          {% assign supervisor_lastname = supervisor %}
+        {% endif %}
+        
+        {% if faculty_lastnames contains supervisor_lastname %}
+          <u>{{ supervisor }}</u>
+        {% else %}
+          {{ supervisor }}
+        {% endif %}
+        
+        {% if forloop.last %}{% else %}, {% endif %}
+      {% endfor %})<br>
+    </li>
+  {% endfor %}
+</ul>
+
 
 
 <div class="danger-box-titled">
