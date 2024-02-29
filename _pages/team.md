@@ -7,9 +7,23 @@ nav: true
 nav_order: 5
 ---
 
-<h3>Faculty</h3>
+<h3>Permanent Positions</h3>
 
-<ul>
+<div class="peoplebox">
+  {% assign sorted_faculty = site.data.faculty | sort: 'lastname' %}
+  {% for member in sorted_faculty %}
+    <a class="person" href="{{ member.url }}" target="_blank">
+      <div class="face" style="--face: url({{site.url}}/assets/img/people/{{ member.photo }})"></div>
+      <span class="who"><span>{{ member.firstname }}</span> <span class="lastname">{{ member.lastname }}</span></span>
+      {% assign titles = member.title | split: ", " %}
+      {% for title in titles %}
+        <span class="title">{{ title }}</span>
+      {% endfor %}
+    </a>
+  {% endfor %}
+</div>
+
+<!--ul>
   {% assign sorted_faculty = site.data.faculty | sort: 'lastname' %}
   {% for member in sorted_faculty %}
     <li>
@@ -17,7 +31,7 @@ nav_order: 5
       {{ member.title }}
     </li>
   {% endfor %}
-</ul>
+</ul-->
 
 {% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
 

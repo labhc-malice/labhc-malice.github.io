@@ -5,6 +5,11 @@
 
 ## Contributing
 
+### I want to preview it, again, locally (see below for the required installation)
+
+~~~bash
+bundle exec jekyll serve -l
+~~~
 
 ### I want to edit/add a post
 
@@ -36,11 +41,15 @@ Unfortunately, this needs a script to be run (labmetry disallow access from anot
 ./bin/labmetry_get.sh
 ```
 
-### I want to preview it, again, locally (see below for the required installation)
+### I want to add/update a person's photo
 
-~~~bash
-bundle exec jekyll serve -l
-~~~
+The ideal image size is 375×469. You can crop the center of a too wide image with
+
+```bash
+convert the-input-image.jpg -resize x469 -gravity Center -crop '74.7x100%+0+0' +repage assets/img/people/the-person.jpg
+```
+
+
 
 ---
 ---

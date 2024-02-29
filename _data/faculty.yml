@@ -1,7 +1,8 @@
 - firstname: Marc
   lastname: Sebban
-  title: Professor, Head of the MALICE team
+  title: Professor, <strong>Head</strong> of the MALICE team
   url: https://perso.univ-st-etienne.fr/sebbanma/
+  photo: marc-sebban.jpg
 
 - firstname: Amaury
   lastname: Habrard
@@ -10,13 +11,15 @@
 
 - firstname: Rémi
   lastname: Emonet
-  title: Associate Professor, Junior IUF Member
+  title: Associate Professor (HDR), Junior IUF Member
   url: https://home.heeere.com/
+  photo: remi-emonet.jpg
   
 - firstname: Rémi
   lastname: Eyraud
   title: Associate Professor (HDR)
   url: https://remieyraud.github.io/index.html
+  photo: remi-eyraud.jpg
   
 - firstname: Benjamin
   lastname: Girault
@@ -30,8 +33,9 @@
   
 - firstname: Quentin
   lastname: Bertrand
-  title: Inria Junior Researcher (starting July 2024)
+  title: Inria Junior Researcher, (starting July 2024)
   url: https://qb3.github.io/
+  photo: WAIT-AUTH-quentin-bertrand.jpg
   
 - firstname: Jordan
   lastname: Frecon-Deloire
