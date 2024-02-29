@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Selected publications
 description: Group's publications in reversed chronological order (exhaustive list at the bottom).
 years: [2024,2023]
 nav: true
