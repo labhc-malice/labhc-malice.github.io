@@ -8,6 +8,7 @@
   lastname: Habrard
   title: Professor, Senior IUF Member
   url: https://perso.univ-st-etienne.fr/habrarda/
+  photoWAIT: amaury-habrard.jpg
 
 - firstname: Rémi
   lastname: Emonet
@@ -25,17 +26,19 @@
   lastname: Girault
   title: Inria Junior Researcher
   url: https://www.benjamin-girault.com/
+  photoWAIT: benjamin-girault.jpg
   
 - firstname: Farah
   lastname: Cherfaoui
   title: Associate Professor
   url: https://scholar.google.fr/citations?user=hgYecToAAAAJ&hl=fr
+  photoTODO: farah-cherfaoui.jpg
   
 - firstname: Quentin
   lastname: Bertrand
   title: Inria Junior Researcher, (starting July 2024)
   url: https://qb3.github.io/
-  photo: WAIT-AUTH-quentin-bertrand.jpg
+  photoWAIT: quentin-bertrand.jpg
   
 - firstname: Jordan
   lastname: Frecon-Deloire
