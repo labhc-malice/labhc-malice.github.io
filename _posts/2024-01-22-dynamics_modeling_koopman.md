@@ -28,12 +28,12 @@ authors:
 Some notes
 
 - the term "observable" (coming from the Koopman theory) actually refers to the latent space
-- the paper works with reinforcement learning so the dynamics involves a (diagonalized) transition matrix $K$ but also an action encoder $L$ (which would not exist in an non-RL setting)
+- the paper works with reinforcement learning so the dynamics involves a (diagonalized) transition matrix $$K$$ but also an action encoder $$L$$ (which would not exist in an non-RL setting)
 - the paper discusses (Appendix D) the relation to DSSM (diagonal state space models)
 
 One key point of the theory is that any matrix (so any linear dynamics / state transition) **can be diagonalized**, provided we consider values in the **complex domain**.
 The paper is actually focusing on RL but references previous work that do the same thing outside RL.
 
-Predicting several time steps forward requires to compute powers of the $K$ diagonal matrix. The they compute the (complex-valued) Vandermonde matrix containing the first $\tau$ powers of the $m$ eigenvalues.
+Predicting several time steps forward requires to compute powers of the $$K$$ diagonal matrix. The they compute the (complex-valued) Vandermonde matrix containing the first $$\tau$$ powers of the $$m$$ eigenvalues.
 To consider the effect of successive the "inputs" (actions) they need to do a convolution of this Vandermonde matrix with the encoded actions, convolution that they do in the Fourier space.
 
