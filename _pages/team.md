@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-<h3>Permanent Positions</h3>
+<h3>Permanent members</h3>
 
 <div class="peoplebox">
   {% assign sorted_faculty = site.data.faculty | sort: 'lastname' %}
