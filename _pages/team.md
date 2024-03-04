@@ -9,10 +9,18 @@ nav_order: 5
 
 <h3>Permanent members</h3>
 
+<div id="asgrey" style="position: absolute; width:0; height:0; margin:0;overflow: hidden;">test</div>
 <div class="peoplebox">
+  <style>
+    .peoplebox .arrivingsoon,
+    #asgrey:target ~ .peoplebox .face
+    { filter: saturate(0%); }
+    .person:hover .face
+    { filter: contrast(130%) saturate(0%); }
+  </style>
   {% assign sorted_faculty = site.data.faculty | sort: 'lastname' %}
   {% for member in sorted_faculty %}
-    <a class="person" href="{{ member.url }}" target="_blank">
+    <a class="person {{ member.class }}" href="{{ member.url }}" target="_blank">
       <div class="face" style="--face: url({{site.url}}/assets/img/people/{{ member.photo }})"></div>
       <span class="who"><span>{{ member.firstname }}</span> <span class="lastname">{{ member.lastname }}</span></span>
       {% assign titles = member.title | split: ", " %}

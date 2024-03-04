@@ -46,7 +46,7 @@ Unfortunately, this needs a script to be run (labmetry disallow access from anot
 The ideal image size is 375×469. You can crop the center of a too wide image with
 
 ```bash
-convert the-input-image.jpg -resize x469 -gravity Center -crop '74.7x100%+0+0' +repage assets/img/people/the-person.jpg
+convert the-input-image.jpg -resize x469 -gravity Center -crop '375x469+0+0' +repage assets/img/people/the-person.jpg
 ```
 
 

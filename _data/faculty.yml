@@ -26,19 +26,20 @@
   lastname: Girault
   title: Inria Junior Researcher
   url: https://www.benjamin-girault.com/
-  photoWAIT: benjamin-girault.jpg
+  photo: benjamin-girault.jpg
   
 - firstname: Farah
   lastname: Cherfaoui
   title: Associate Professor
   url: https://scholar.google.fr/citations?user=hgYecToAAAAJ&hl=fr
-  photoTODO: farah-cherfaoui.jpg
+  photo: farah-cherfaoui.jpg
   
 - firstname: Quentin
   lastname: Bertrand
   title: Inria Junior Researcher, (starting July 2024)
   url: https://qb3.github.io/
-  photoWAIT: quentin-bertrand.jpg
+  photo: quentin-bertrand.jpg
+  class: arrivingsoon
   
 - firstname: Jordan
   lastname: Frecon-Deloire
