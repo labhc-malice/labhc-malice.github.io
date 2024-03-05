@@ -1,12 +1,15 @@
 ---
 layout: page
 permalink: /publications/
-title: Selected publications
+title: Publications
 description: Group's publications in reversed chronological order (exhaustive list at the bottom).
 years: [2024,2023]
 nav: true
 nav_order: 1
 ---
+
+
+<h4>Selected publications</h4>
 <!-- _pages/publications.md -->
 <div class="publications">
 
