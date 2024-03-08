@@ -7,7 +7,14 @@
 
     .person {
         display: block;
-        width: 23%; /* 18% for 5 */
+        width: 23%; /* 23% for 4 18% for 5 */
+
+        &:nth-of-type(3n+1) {
+            margin-left: 10%;
+        }
+        &:nth-of-type(3n) {
+            margin-right: 10%;
+        }
 
         > .face {
             box-sizing: border-box;
