@@ -36,6 +36,12 @@ body.sticky-bottom-footer {
 .logo-strip {
             padding: 20px; /* Adjust the padding as needed */
             text-align: center; /* Center the logos */
+            margin: 0 -30px;
+}
+
+.logo-strip .logo-rf {
+            height: 130px;
+            margin-bottom: -25px;
 }
 
 .logo-strip img {
