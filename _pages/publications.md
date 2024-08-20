@@ -8,6 +8,7 @@ nav: true
 nav_order: 1
 ---
 
+<a href="#exhaustive">Scroll to <b>the exhaustive list</b>.</a>
 
 <h4>Selected publications</h4>
 <!-- _pages/publications.md -->
@@ -19,13 +20,13 @@ nav_order: 1
 {% endfor %}
 
 </div>
-<div id="labmetry">
+<div id="exhaustive">
   <hr/>
   <h4>Exhaustive consolidated list (automatic export)</h4>
     {% include labmetry_raw.html %}
 </div>
 <style>
-  #labmetry {
+  #exhaustive {
     font-size: 80%;
     h2 {
       font-size: 100%;
