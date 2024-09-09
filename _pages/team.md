@@ -101,6 +101,34 @@ nav_order: 5
   {% endfor %}
 </ul>
 
+<h3>Former Postdocs</h3>
+
+<ul>
+  {% assign postdocs = site.data.formerpostdocs | sort: 'lastname' %}
+  {% for postdoc in postdocs %}
+    <li>
+      <strong><a href="{{ postdoc.url }}" target="_blank">{{ postdoc.firstname }} {{ postdoc.lastname }}</a></strong>,
+      {{ postdoc.starting_date }} - {{ postdoc.end_date}}
+      ({% for supervisor in postdoc.supervisor %}
+        {% assign supervisor_parts = supervisor | split: '. ' %}
+        {% if supervisor_parts.size > 1 %}
+          {% assign supervisor_lastname = supervisor_parts[1] | remove: ' ' %}
+        {% else %}
+          {% assign supervisor_lastname = supervisor %}
+        {% endif %}
+        
+        {% if faculty_lastnames contains supervisor_lastname %}
+          <u>{{ supervisor }}</u>
+        {% else %}
+          {{ supervisor }}
+        {% endif %}
+        
+        {% if forloop.last %}{% else %}, {% endif %}
+      {% endfor %})<br>
+    </li>
+  {% endfor %}
+</ul>
+
 <h3>Former PhD students</h3>
 
 <ul>

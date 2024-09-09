@@ -1,0 +1,23 @@
+- firstname: Eduardo
+  lastname: Brandao
+  url: 
+  supervisor: [R. Emonet, M. Sebban, JP. Colombier]
+  starting_date: 2023
+  end_date: 2024
+  team_thematic: True
+  
+- firstname: Dakotah
+  lastname: Lambert
+  url: https://dakotahlambert.com/
+  supervisor: [R. Eyraud]
+  starting_date: 2022
+  end_date: 2024
+  team_thematic: False
+  
+- firstname: Marie-Ange
+  lastname: Lebre
+  url: 
+  supervisor: [A. Habrard]
+  starting_date: 2022
+  end_date: 2024
+  team_thematic: False
