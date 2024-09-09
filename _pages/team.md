@@ -44,6 +44,7 @@ nav_order: 5
 {% assign faculty_lastnames = site.data.faculty | map: 'lastname' %}
 
 
+{% if site.data.postdocs %}
 <h3>Postdocs</h3>
 
 <ul>
@@ -71,8 +72,10 @@ nav_order: 5
     </li>
   {% endfor %}
 </ul>
+{% endif %}
 
 
+{% if site.data.phdstudents %}
 <h3>PhD students</h3>
 
 <ul>
@@ -100,6 +103,7 @@ nav_order: 5
     </li>
   {% endfor %}
 </ul>
+{% endif %}
 
 <h3>Former Postdocs</h3>
 
