@@ -4,7 +4,7 @@ permalink: /team/
 title: Team
 description: Members of the MALICE team
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 <h3>Permanent members</h3>

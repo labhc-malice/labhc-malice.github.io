@@ -1,10 +1,13 @@
 ---
 layout: page
 title: project 6
-description: a project with no image
-img:
+description: a project with no image (and redirect (remove to have a plain page))
+OPTIONALredirect: https://unsplash.com
+img: assets/img/7.jpg
 importance: 4
-category: fun
+category: template
+ALTcat1: core
+ALTcat2: other
 ---
 
 Every project has a beautiful feature showcase page.
