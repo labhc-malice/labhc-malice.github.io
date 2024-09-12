@@ -37,15 +37,7 @@
   starting_date: 2021
   end_date: 2024
   team_thematic: True
-  
-- firstname: Rehan
-  lastname: Jhuboo
-  url: 
-  supervisor: [A. Guignandon, M. Sebban]
-  starting_date: 2021
-  end_date: 2024
-  team_thematic: False
-  
+    
 - firstname: Sayan
   lastname: Chaki
   url: 
@@ -69,6 +61,15 @@
   starting_date: 2022
   end_date: 2025
   team_thematic: False 
+
+- firstname: Hind
+  lastname: Atbir
+  url: 
+  supervisor: [E. Morvant, R. Eyraud]
+  starting_date: 2024
+  end_date: 2027
+  team_thematic: True
+
   
   
   
