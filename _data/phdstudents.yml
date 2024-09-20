@@ -70,6 +70,21 @@
   end_date: 2027
   team_thematic: True
 
+- firstname: Ben
+  lastname: Gao
+  url: 
+  supervisor: [J.Patracone, O. Alata]
+  starting_date: 2024
+  end_date: 2027
+  team_thematic: True
+
+- firstname: Erick
+  lastname: Gomez
+  url: 
+  supervisor: [A. Habrard, F.Garrelie]
+  starting_date: 2024
+  end_date: 2027
+  team_thematic: True
 
   
   
