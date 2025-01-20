@@ -1,7 +1,7 @@
 ---
 layout: page
 title: …
-nav: true
+nav: false
 nav_order: 10
 dropdown: true
 children: 
