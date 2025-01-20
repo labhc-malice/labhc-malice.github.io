@@ -30,3 +30,4 @@ As such, MALICE is inherently rooted at the crossroads of Applied Mathematics, S
 
 <strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong>
 
+<img style="width: 100%" src="{{ 'assets/img/malice-team-2024.jpg' | relative_url }}" />
