@@ -5,3 +5,13 @@
   starting_date: 2022
   end_date: 2025
   team_thematic: True
+  
+    
+- firstname: Volodimir
+  lastname: Mitarchuk
+  url: 
+  supervisor: [J. Patracone]
+  starting_date: 2025
+  end_date: 2026
+  team_thematic: True
+    
