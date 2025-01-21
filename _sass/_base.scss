@@ -755,3 +755,10 @@ progress {
     font-weight: bold;
     border-radius: 0px 0px 0px 0px;
 }
+
+
+/* CUSTOMIZATION */
+
+.navbar .nav-item .nav-link[href="/"] {
+    display: none;
+}
