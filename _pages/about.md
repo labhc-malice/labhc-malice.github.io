@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: MAchine Learning with Integration of surfaCe Engineering knowledge
-
+nav: false
 
 profile:
   align: right
