@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-
+<div>
 <input type="checkbox" id="toggle" class="toggleCheckbox" />
 <label for="toggle" class="toggleContainer">
   <div>All Publications</div>   
@@ -19,7 +19,7 @@ nav_order: 4
   <div class="allPublications">You are viewing all publications.</div>
   <div class="selectedPublications">You are viewing selected publications.</div>
 </div>
-
+</div>
 
 
 
