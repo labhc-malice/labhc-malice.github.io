@@ -28,6 +28,9 @@ Axis 3: Domain generalization and transfer learning for surface engineering
 
 As such, MALICE is inherently rooted at the crossroads of Applied Mathematics, Statistical Learning Theory, Optimization, Physics and Differentiable Simulation.
 
-<strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong>
+<div class="danger-box-titled">
+<span class="title">Open positions CR/ISFP</span>
+<p><strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
+</div>
 
 <img style="width: 100%" src="{{ 'assets/img/malice-team-2024.jpg' | relative_url }}" />

@@ -163,12 +163,4 @@ nav_order: 2
 
 
 
-<div class="danger-box-titled">
-<span class="title">Open positions</span>
-<ul>
-<li>Postdoc: <em>Modeling, optimization and transfer in physics-based machine learning</em> (<a href="https://jordan-frecon.com/download/postdoc/2024-Postdoc-LabHC-PhysicsML.pdf">offer</a>)</li>
-<p><strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
-</ul>
-</div>
-
 
