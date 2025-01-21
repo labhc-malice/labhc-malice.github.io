@@ -5,6 +5,6 @@ description: "AI4OP: Artificial Intelligence for Onco-Plasma"
 img: assets/img/TODO.jpg
 redirect: https://remieyraud.github.io/AI4OP/
 importance: 1
-category: other
+category: past
 ---
 
