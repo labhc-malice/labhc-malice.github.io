@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-<div>
+<div style="display: flex; justify-content: center;">
 <input type="checkbox" id="toggle" class="toggleCheckbox" />
 <label for="toggle" class="toggleContainer">
   <div>All Publications</div>   
@@ -17,9 +17,8 @@ nav_order: 4
 
 <div id="toggleText">
   <div class="allPublications">
-		  <div id="exhaustive">
+	<div id="exhaustive">
 	  <hr/>
-	  <h4>Exhaustive consolidated list (automatic export)</h4>
 		{% include labmetry_raw.html %}
 	</div>
 	<style>
