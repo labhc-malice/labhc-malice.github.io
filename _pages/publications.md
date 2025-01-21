@@ -28,6 +28,9 @@ nav_order: 4
 		  font-size: 100%;
 		}
 	  }
+      .allPublications li {
+          margin-bottom: 1em;
+      }
 	</style>
 
 	</div>
