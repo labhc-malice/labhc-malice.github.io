@@ -2,13 +2,13 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Group's publications in reversed chronological order (exhaustive list at the bottom).
+description: Group's publications in reversed chronological order.
 years: [2024,2023]
 nav: true
 nav_order: 4
 ---
 
-<div style="display: flex; justify-content: center;">
+<div>
 <input type="checkbox" id="toggle" class="toggleCheckbox" />
 <label for="toggle" class="toggleContainer">
   <div>All Publications</div>   
