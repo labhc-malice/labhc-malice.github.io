@@ -15,20 +15,25 @@ Partners:
 - Huawei
 - QOS DESIGN
 
-"The aim of this project is to explore the first avenues of research into the contribution of multimodality
-in datasets to meet the requirements of fair learning. Fairness refers here to the biases (in the data and/or
-induced), while being interested in the interpretability of the models to help their certification. Each
-modality has its own statistical and topological characteristics, which requires upstream research on the
-adjustment of distributions when biased, adapted metrics, etc. Moreover, each one being itself a bias
-of observation of the data, this will be taken into account to establish a joint distribution (trans-modal)
-unbiased on all these modalities. With theoretical research in cross-modal statistical learning, we will
-study methods for reducing some types of identified biases (non iid, imbalances, sensitive variables) in
-the case of multimodal data. Two levels of treatment are privileged: (1) cross-modal pre-processing of
-biases in the data, by learning metrics, neural representations, and optimization constraints on kernel preimages;
-(2) cross-modal algorithms for eliminating biases inmodel learning: cross-modal optimization
-algorithms, as well as optimal transfer and transport approaches between modalities to debias the
-concerned ones, based on the theoretical results previously obtained. Parsimony will be considered
-for scaling and explainability. Transversally, our work will be based on problems arising from real data
-sets in biology and health, multi-modal and presenting various types of bias, and on toy data sets to be
-generated. They have modalities where the data are structured in graphs: all our fundamental works will
-be declined to take into account this specificity impacting the treatment of the considered biases."
+"When applied to communication networks, traditional approaches for control and decision-making
+require a comprehensive knowledge of system and user behaviours, which is unrealistic in practice when
+there is an increase in scale and complexity. Data-driven AI approaches do not have this drawback,
+but offer no safety bounds and are difficult to interpret. The SAFE project aims to design an innovative
+approach by combining the best of both worlds. In this new approach, intelligence is distributed in the
+network between a global AI (at the central level) and local AIs (at the edge level) collaborating with each
+other by integrating traditional models with graph neural networks and reinforcement learning. The
+approach, developed for partially or completely observable/controllable environments, will natively
+integrate safety bounds, interpretability and provide self-adaptive systems for routing, traffic engineering
+and scheduling. SAFE has following scientific objectives with an open source strategy: 1) Hierarchical
+architecture: Assumingmodern network architectures, we will design a ML architecture based on global AI
+(running at central controller level) and local AI (running at edge device level) for decision-making
+in partially as well as fully observable and controllable environments. Global AI will be able to control,
+configure and install policies on local AI. 2) Algorithms for partially observable environments: We will
+design new safety bounded and interpretable algorithms for self-adaptive traffic engineering, automatic
+scheduling algorithms for partially observable and controllable environments. These methods find
+use cases in SD-WAN (Software-DefinedWide Area Networks), where edge devices present at customer
+premises need to collaboratively operate in overlay on top of partially observable core networks. 3)
+Algorithms for fully observable environments: We will investigate the application of the global and local
+AI architecture for fully observable and controllable environments. Specifically, we will design new safety
+bounded and interpretable algorithms for software-defined routing and traffic engineering, which find
+use cases in data centers as well as privateWANs connecting multiple sites."
