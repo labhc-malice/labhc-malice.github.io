@@ -2,7 +2,7 @@
 layout: page
 title: ANR MELISSA
 description: MEthodological contributions in statistical Learning InSpired by SurfAce engineering
-img: assets/img/project/logo-MELISSA.jpg
+img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
 ---
