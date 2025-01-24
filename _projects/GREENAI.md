@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I-Démo Région GREENAI
+title: I-Démo Région GreenAI
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
@@ -11,7 +11,7 @@ Partners:
 - Dracula Technologies 
 - ASYGN
 
-"The project I-Démo Région "GREENAI" involves three key actors working collaboratively towards
+"The project I-Démo Région "GreenAI" involves three key actors working collaboratively towards
 sustainable Internet of Things (IoT) solutions. Dracula Technologies specializes in developing organic
 photovoltaic cells that harness ambient light to power IoT devices, aligning with environmental sustainability
 goals. ASYGN contributes by designing ultra-low-power hardware accelerators to enable advanced
