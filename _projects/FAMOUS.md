@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ANR FAMOUS
-description: "Famous: FairMulti-modal Learning" <br />
+description: "Famous : FairMulti-modal Learning"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
