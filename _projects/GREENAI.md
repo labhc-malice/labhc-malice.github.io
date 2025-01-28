@@ -1,7 +1,7 @@
 ---
 layout: page
 title: I-Démo Région GreenAI
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-GREENAI.png
 importance: 1
 category: ongoing
 ---
