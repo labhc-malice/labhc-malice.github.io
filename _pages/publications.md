@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Group's publications in reversed chronological order.
-years: [2024,2023]
+years: [2025,2024,2023]
 nav: true
 nav_order: 4
 ---
@@ -13,7 +13,6 @@ nav_order: 4
   <div>All Publications</div>   
   <div>Selected Publications</div>
 </label>
-
 	
 <div id="toggleText">
   <div class="allPublications">
