@@ -9,12 +9,13 @@ nav_order: 4
 ---
 
 <div>
-<input type="checkbox" id="toggle" class="toggleCheckbox" />
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">	<input type="checkbox" id="toggle" class="toggleCheckbox" />
 <label for="toggle" class="toggleContainer">
   <div>All Publications</div>   
   <div>Selected Publications</div>
 </label>
-
+</div>
+	
 <div id="toggleText">
   <div class="allPublications">
 	<div id="exhaustive">
