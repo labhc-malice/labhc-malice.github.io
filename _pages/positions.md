@@ -2,7 +2,7 @@
 layout: page
 title: Positions
 permalink: /positions/
-description: Open positions.
+description: Open positions
 nav: true
 nav_order: 3
 display_categories: [core, other]
