@@ -15,7 +15,7 @@ Here are recent open positions:
 <ul>
   <li>Master thesis : 2025 <b>Spectral Neural Networks for Physics-informed Machine Learning</b> (<a href="https://www.benjamin-girault.com/pdfs/internship-offer-fourier-nn-2025.pdf">full proposal</a>)</li>
   <li>Phd thesis : 2025 (deadline:March 1st) <b>Harmonic Neural Networks for Physics-informed Machine Learning</b> (<a href="https://www.benjamin-girault.com/pdfs/offre-these-2025-harmonic-nn.pdf">full proposal</a>)</li>
-</div>
+
 
 <div class="danger-box-titled">
 <span class="title">Open positions CR/ISFP</span>
