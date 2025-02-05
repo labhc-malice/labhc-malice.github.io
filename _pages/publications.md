@@ -24,6 +24,16 @@ nav_order: 4
 		{% include labmetry_raw.html %}
 	</div>
 	<script>
+		people = [];
+		{% for p in site.data.faculty %}people.push("{{p.firstname}}"[0] +  "\\. {{p.lastname}}");{% endfor %}
+		{% for p in site.data.postdoc %}people.push("{{p.firstname}}"[0] +  "\\. {{p.lastname}}");{% endfor %}
+		{% for p in site.data.phdstudents %}people.push("{{p.firstname}}"[0] +  "\\. {{p.lastname}}");{% endfor %}
+		{% for p in site.data.formerpostdoc %}people.push("{{p.firstname}}"[0] +  "\\. {{p.lastname}}");{% endfor %}
+		{% for p in site.data.formerphdstudents %}people.push("{{p.firstname}}"[0] +  "\\. {{p.lastname}}");{% endfor %}
+		people = '('+people.join('|')+')'
+		people = new RegExp(people, 'g')
+	</script>
+	<script>
 		document.querySelectorAll('#exhaustive ul').forEach(ul => {
 			const all = [...ul.querySelectorAll('li')]
 			all.forEach(li => li.remove())
@@ -36,7 +46,11 @@ nav_order: 4
 			console.log(ul, all, all.map(k))
 			all.sort((a,b)=>k(a).localeCompare(k(b)))
 			console.log(ul, all, all.map(k))
-			all.forEach(li => ul.append(li))
+			all.forEach(li => {
+				li.querySelectorAll('u').forEach(u => {u.outerHTML = u.innerHTML}) // remove underline
+				li.innerHTML = li.innerHTML.replaceAll(people, '<u>$1</u>')
+				ul.append(li)
+			})
 		})
 	</script>
 
