@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EUR SLEIGHT PIMALEA <br/> (2023-2024)
+title: EUR SLEIGHT PIMALEA <br/> (2023-2025)
 description: "Physics-InformedMAchine LEARning: From extraction to transfer of knowledge in surface
 engineering"
 img: assets/img/project/logo-defaut-malice6.jpg
