@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BABY CRY Project - AXA Fundation <br/>(2024-2026)
-description: ENES(UJM, SAINBIOSE-MoVE, CHU Saint Etienne
+description: ENES(UJM), SAINBIOSE-MoVE, CHU Saint Etienne
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
