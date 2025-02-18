@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AXA BABY CRY 1000
+title: BABY CRY Project - AXA Fundation <br/>(2024-2026)
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
