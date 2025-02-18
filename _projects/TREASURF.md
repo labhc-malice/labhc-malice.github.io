@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EUR SLEIGHT TREASURF
+title: EUR SLEIGHT TREASURF <br/>(2024-2027)
 description: "TRansfer lEarning for Frugal and Accurate modeling of SURface Functionalization prediction
 –application to multicomponent alloys"
 img: assets/img/project/logo-defaut-malice6.jpg
