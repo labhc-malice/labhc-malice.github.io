@@ -1,7 +1,7 @@
 ---
 layout: page
 title: " AI4OP <br/>(2021-2024)"
-description: "Artificial Intelligence for Onco-Plasma"
+description: "<b> Artificial Intelligence for Onco-Plasma </b> <br/> LabHC (UJM, CNRS)<br/> LabHC (UJM, CNRS) <br/> LIS (Aix-Marseille University)AP-HM <br/> INT (Aix-Marseille University)"
 img: assets/img/project/logo-defaut-malice6.jpg
 redirect: https://remieyraud.github.io/AI4OP/
 importance: 1
