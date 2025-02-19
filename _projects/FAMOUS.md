@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ANR FAMOUS
-description: "FairMulti-modal Learning"
+title: "ANR FAMOUS <br/>(2024-2026)"
+description: "<b> FairMulti-modal Learning </b> <br/> LabHC (UJM, CNRS)<br/> LIS Aix Marseille<br/> LITIS Rouen<br/> INT Marseille, Euranova"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing

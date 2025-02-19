@@ -20,13 +20,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-The goal of the MALICE Inria project-team is to combine the interdisciplinary skills present at the Hubert Curien laboratory in statistical learning and laser-matter interaction to foster the development of new joint methodological contributions at the interface between Machine Learning and Surface Engineering. 
+The objective of MALICE is to combine the interdisciplinary skills present at the Hubert Curien lab in statistical learning and laser-matter interaction to foster the development of new joint methodological contributions in Physics-informed Machine Learning (PiML) at the interface between ML and Surface Engineering. The members of the project-team have complementary backgrounds in computer science, applied mathematics, statistics and optimization. They also benefit from the expertise of physicists of the lab in modeling ultrashort laser-matter interaction which makes possible scientific breakthroughs in both domains. On the one hand, surface engineering raises numerous machine learning challenges, including (i) a limited access to training data due to time-consuming experimental setups and the availability of only incomplete background knowledge (typically in the form of Partial Differential Equations - PDEs), (ii) the need of deriving theoretical (generalization, approximation, optimization) guarantees on models learned from both data and physical knowledge and (iii) a strong necessity to transfer knowledge from one dynamical system to another. On the other hand, the advances carried out in machine learning allow to better understand the physics underlying the mechanisms of laser/radiation-matter interaction, enabling to address numerous societal challenges in the fields of space, nuclear, defense, energy or health.
+
+MALICE is organized according to the following three axes:
 
 Axis 1: Theoretical frameworks when learning from data and background knowledge<br>
 Axis 2: Integration and extraction of knowledge in surface engineering<br>
 Axis 3: Domain generalization and transfer learning for surface engineering
 
-As such, MALICE is inherently rooted at the crossroads of Applied Mathematics, Statistical Learning Theory, Optimization, Physics and Differentiable Simulation.
 
 <div class="danger-box-titled">
 <span class="title">Open positions CR/ISFP</span>

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: I-Démo Région GreenAI
+title: GreenAI Project -I-Démo Région
+description: Dracula Technologies <br/> ASYGN 
 img: assets/img/project/logo-GREENAI.png
 importance: 1
 category: ongoing
