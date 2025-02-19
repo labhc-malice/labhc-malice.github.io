@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GreenAI Project -I-Démo Région
+title: "France 2030 GreenAI <br/>(2023-2027)"
 description: Dracula Technologies <br/> ASYGN 
 img: assets/img/project/logo-GREENAI.png
 importance: 1
