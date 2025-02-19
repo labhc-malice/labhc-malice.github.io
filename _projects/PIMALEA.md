@@ -21,4 +21,4 @@ machine learning topic. In order to train the corresponding deep neural networks
 assume that they have access to a large enough amount of empirical data and/or they know the
 underlying physics allowing the generation of simulated examples. The ambitious goal of this project
 PIMALEA is to achieve scientific breakthroughs in the domain of self-organization of matter whose
-specificities constitute important pitfalls for a direct use ofmachine learning."
+specificities constitute important pitfalls for a direct use of machine learning."
