@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ANR SAFE <br/>(2022-2026)
-description: "Controlling networks with safety bounded and interpretablemachine learning" 
+description: "<b> Controlling networks with safety bounded and interpretablemachine learning </b> <br/> LabHC (UJM, CNRS), XLIM / Univ.Poitiers,IRISA / Univ.Rennes 1,Huawei,QOS DESIGN" 
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
