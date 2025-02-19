@@ -2,7 +2,7 @@
 layout: page
 title: EUR SLEIGHT PIMALEA <br/> (2023-2025)
 description: "<b> Physics-Informed MAchine LEARning: From extraction to transfer of knowledge in surface engineering </b> <br/> JP Colombier (co-coordinator)<br/> LabHC (UJM, CNRS)"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-physics.jpg
 importance: 1
 category: past
 ---
