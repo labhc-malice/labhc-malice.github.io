@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ANR SAFE <br/>(2022-2026)
-description: "Controlling networks with safety bounded and interpretablemachine learning"
+description: "Controlling networks with safety bounded and interpretablemachine learning" 
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
