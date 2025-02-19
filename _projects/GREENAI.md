@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "France 2030 GreenAI <br/>(2024-2027)"
+title: "France 2030 GreenAI <br/>(2023-2027)"
 description: Dracula Technologies <br/> ASYGN 
 img: assets/img/project/logo-GREENAI.png
 importance: 1
