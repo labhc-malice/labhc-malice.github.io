@@ -1,19 +1,17 @@
 ---
 layout: page
 title: "ANR FAMOUS <br/>(2024-2026)"
-description: "<b> FairMulti-modal Learning </b> <br/> LabHC (UJM, CNRS)<br/> LIS Aix Marseille<br/> LITIS Rouen<br/> INT Marseille, Euranova"
+description: "<b> FairMulti-modal Learning </b>"
+partners:
+  - "LabHC (UJM, CNRS)"
+  - "LIS Aix Marseille"
+  - "LITIS Rouen"
+  - "INT Marseille"
+  - "Euranova"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
 ---
-
-Partners:
-
-- LabHC (UJM, CNRS)
-- LIS Aix Marseille
-- LITIS Rouen
-- INT Marseille
-- Euranova
 
 "The aim of this project is to explore the first avenues of research into the contribution of multimodality
 in datasets to meet the requirements of fair learning. Fairness refers here to the biases (in the data and/or

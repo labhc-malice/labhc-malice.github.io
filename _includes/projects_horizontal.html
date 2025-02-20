@@ -17,6 +17,11 @@
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            <p class="card-text"><small class="text-muted">
+              {%- for partner in project.partners -%}
+                {{ partner }}{% unless forloop.last %} • {% endunless %}
+              {%- endfor -%}
+            </small></p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">

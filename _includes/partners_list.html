@@ -1,0 +1,10 @@
+{% if page.partners %}
+<div class="partners-list">
+  <h6>Partners:</h6>
+  <ul>
+    {% for partner in page.partners %}
+    <li>{{ partner }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

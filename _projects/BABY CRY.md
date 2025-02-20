@@ -1,17 +1,15 @@
 ---
 layout: page
 title: BABY CRY Project - AXA Fundation <br/>(2024-2026)
-description: ENES(UJM) <br/> SAINBIOSE-MoVE <br/> CHU Saint Etienne
+description: ""
+partners:
+  - "ENES (UJM)"
+  - "SAINBIOSE-MoVE"
+  - "CHU Saint Etienne"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
 ---
-
-Partners:
-
-- ENES (UJM)
-- SAINBIOSE-MoVE
-- CHU Saint Etienne
 
 "Lead by the ENES, the AXA Baby Cry 1000 project aims at recording 1000 babies, each for one day after
 they are born to help early diagnosis of cognitive development issues and compare with the development

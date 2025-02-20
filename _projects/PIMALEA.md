@@ -1,15 +1,13 @@
 ---
 layout: page
-title: EUR SLEIGHT PIMALEA <br/> (2023-2025)
-description: "<b> Physics-Informed MAchine LEARning: From extraction to transfer of knowledge in surface engineering </b> <br/> JP Colombier (co-coordinator)<br/> LabHC (UJM, CNRS)"
+title: EUR SLEIGHT PIMALEA
+description: "<b>Physics-Informed MAchine LEARning: From extraction to transfer of knowledge in surface engineering</b>"
+partners:
+  - "JP Colombier (co-coordinator) / LabHC (UJM, CNRS)"
 img: assets/img/project/logo-physics.jpg
 importance: 1
 category: past
 ---
-
-Partners:
-
-- JP Colombier (co-coordinator)/ LabHC (UJM, CNRS)
 
 "During the past few years, machine learning has beenmassively used to better understand multiscale
 physics, e.g. (i) by overcoming the limitations of costly numerical solvers of Partial Differential Equations 
