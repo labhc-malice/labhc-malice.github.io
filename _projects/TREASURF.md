@@ -9,7 +9,8 @@ category: ongoing
 
 Partners:
 
-F.Garrelie and JP Colombier / LabHC (UJM, CNRS)
+- F.Garrelie and JP Colombier
+- LabHC (UJM, CNRS)
 
 "TREASURF is an interdisciplinary project focusing on the development of novel machine learning
 approaches for the prediction of surface functionalization of different families of metals and metal

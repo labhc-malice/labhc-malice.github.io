@@ -9,9 +9,10 @@ category: past
 
 Partners:
 
-- JP Colombier (co-coordinator)/ LabHC (UJM, CNRS)
+- JP Colombier (co-coordinator)
+- LabHC (UJM, CNRS)
 
-"During the past few years, machine learning has beenmassively used to better understand multiscale
+"During the past few years, machine learning has been massively used to better understand multiscale
 physics, e.g. (i) by overcoming the limitations of costly numerical solvers of Partial Differential Equations 
 (PDE), (ii) by learning from data the residuals of known physical models or more recently (iii) by discovering
 the latter explaining the underlying dynamics of observed data. In this context, a new generation
