@@ -1,19 +1,17 @@
 ---
 layout: page
 title: ANR SAFE <br/>(2022-2026)
-description: "<b> Controlling networks with safety bounded and interpretable machine learning </b> <br/> LabHC (UJM, CNRS) <br/> XLIM Univ.Poitiers <br/> IRISA Univ.Rennes 1<br/> Huawei<br/> QOS DESIGN" 
+description: "<b>Controlling networks with safety bounded and interpretable machine learning</b>"
+partners:
+  - "LabHC (UJM, CNRS)"
+  - "XLIM / Univ.Poitiers"
+  - "IRISA / Univ.Rennes 1"
+  - "Huawei"
+  - "QOS DESIGN"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
 ---
-
-Partners:
-
-- LabHC (UJM, CNRS)
-- XLIM / Univ.Poitiers
-- IRISA / Univ.Rennes 1
-- Huawei
-- QOS DESIGN
 
 "When applied to communication networks, traditional approaches for control and decision-making
 require a comprehensive knowledge of system and user behaviours, which is unrealistic in practice when

@@ -1,16 +1,14 @@
 ---
 layout: page
 title: "France 2030 GreenAI <br/>(2023-2027)"
-description: Dracula Technologies <br/> ASYGN 
+description: ""
+partners:
+  - "Dracula Technologies"
+  - "ASYGN"
 img: assets/img/project/logo-GREENAI.png
 importance: 1
 category: ongoing
 ---
-
-Partners:
-
-- Dracula Technologies 
-- ASYGN
 
 "The project I-Démo Région "GreenAI" involves three key actors working collaboratively towards
 sustainable Internet of Things (IoT) solutions. Dracula Technologies specializes in developing organic
