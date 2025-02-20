@@ -1,16 +1,14 @@
 ---
 layout: page
 title: EUR SLEIGHT TREASURF <br/>(2024-2027)
-description: "<b> TRansfer lEarning for Frugal and Accurate modeling of SURface Functionalization prediction – application to multicomponent alloys </b> <br/>F.Garrelie and JP Colombier <br/> LabHC (UJM, CNRS)"
+description: "<b> TRansfer lEarning for Frugal and Accurate modeling of SURface Functionalization prediction – application to multicomponent alloys </b>" 
+partners:
+  - "F.Garrelie and JP Colombier"
+  - "LabHC (UJM, CNRS)"
 img: assets/img/project/logo-defaut-malice6.jpg
 importance: 1
 category: ongoing
 ---
-
-Partners:
-
-- F.Garrelie and JP Colombier
-- LabHC (UJM, CNRS)
 
 "TREASURF is an interdisciplinary project focusing on the development of novel machine learning
 approaches for the prediction of surface functionalization of different families of metals and metal
