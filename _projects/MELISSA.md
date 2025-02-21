@@ -6,7 +6,7 @@ partners:
   - "LabHC (UJM, CNRS)"
   - "ISIR (Sorbonne Univ., CNRS)"
   - "MAGNET (INRIA, Lille Univ.)"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-MELISSA.jpg
 importance: 1
 category: ongoing
 ---
