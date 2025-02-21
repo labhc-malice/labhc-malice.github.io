@@ -6,7 +6,7 @@ partners:
   - "ENES (UJM)"
   - "SAINBIOSE-MoVE"
   - "CHU Saint Etienne"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-BABYCRY.jpg
 importance: 1
 category: ongoing
 ---
