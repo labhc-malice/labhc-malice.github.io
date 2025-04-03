@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BABY CRY Project - AXA Fundation <br/>(2024-2026)
+title: BABY CRY 1000 - AXA Fundation <br/>(2024-2026)
 description: ""
 partners:
   - "ENES (UJM)"
