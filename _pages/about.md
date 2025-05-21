@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MAchine Learning with Integration of surfaCe Engineering knowledge
+subtitle: 
 nav: false
 
 profile:
@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-The objective of MALICE is to combine the interdisciplinary skills present at the Hubert Curien lab in statistical learning and laser-matter interaction to foster the development of new joint methodological contributions in Physics-informed Machine Learning (PiML) at the interface between ML and Surface Engineering. The members of the project-team have complementary backgrounds in computer science, applied mathematics, statistics and optimization. They also benefit from the expertise of physicists of the lab in modeling ultrashort laser-matter interaction which makes possible scientific breakthroughs in both domains. On the one hand, surface engineering raises numerous machine learning challenges, including (i) a limited access to training data due to time-consuming experimental setups and the availability of only incomplete background knowledge (typically in the form of Partial Differential Equations - PDEs), (ii) the need of deriving theoretical (generalization, approximation, optimization) guarantees on models learned from both data and physical knowledge and (iii) a strong necessity to transfer knowledge from one dynamical system to another. On the other hand, the advances carried out in machine learning allow to better understand the physics underlying the mechanisms of laser/radiation-matter interaction, enabling to address numerous societal challenges in the fields of space, nuclear, defense, energy or health.
+The Inria MALICE team, whose members have a strong expertise in statistical learning, applied mathematics, statistics and optimization, develops algorithmic and theoretical research focused on integrating physical knowledge into machine learning (ML) models. Leveraging the skills present at the Hubert Curien lab in physics, MALICE aims to foster the development of new methodological contributions in Physics-informed Machine Learning (PiML) at the interface between ML and Surface Engineering. This makes possible scientific breakthroughs in both domains. On the one hand, surface engineering raises numerous machine learning challenges, including (i) a limited access to training data due to time-consuming experimental setups and the availability of only incomplete background knowledge (typically in the form of Partial Differential Equations - PDEs), (ii) the need of deriving theoretical (generalization, approximation, optimization) guarantees on models learned from both data and physical knowledge and (iii) a strong necessity to transfer knowledge from one dynamical system to another. On the other hand, the advances carried out in machine learning allow to better understand the physics underlying the mechanisms of laser/radiation-matter interaction, enabling to address numerous societal challenges in the fields of space, nuclear, defense, energy or health.
 
 MALICE is organized according to the following three axes:
 
