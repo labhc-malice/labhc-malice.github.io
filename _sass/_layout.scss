@@ -3,7 +3,8 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 70px;
+  --body-padding-bottom: 70px;
+  padding-bottom: var(--body-padding-bottom);
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
