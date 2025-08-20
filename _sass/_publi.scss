@@ -100,4 +100,9 @@
    padding-bottom: var(--unoverflow);
    box-sizing: border-box;
    margin-bottom: calc(-1 * var(--unoverflow));
+
+   background: white !important;
+   html[data-theme="dark"] & {
+      filter: invert(100%);
+   }
 }
