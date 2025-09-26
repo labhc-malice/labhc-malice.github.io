@@ -93,4 +93,11 @@
   starting_date: 2025
   end_date: 2028
   team_thematic: True
-
+  
+- firstname: Mael
+  lastname: Jousset
+  url: 
+  supervisor: [E.Brandao, JP. Colombier]
+  starting_date: 2025
+  end_date: 2028
+  team_thematic: True
