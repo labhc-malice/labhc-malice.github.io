@@ -78,6 +78,13 @@
   end_date: 2027
   team_thematic: True
 
+  - firstname: Mickael
+  lastname: Gault
+  url:  https://mlgb.fr
+  supervisor: [M.Sebban, R.Emonet, Pierre Bachaud (IFPEN), Benoit Celse (IFPEN), Adrien Spagnol (IFPEN)]
+  starting_date: 2025
+  end_date: 2028
+  team_thematic: True
   
   
   
