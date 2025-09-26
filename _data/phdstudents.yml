@@ -86,11 +86,11 @@
   end_date: 2028
   team_thematic: True
 
-- firstname: 
-  lastname: 
+- firstname: Petros 
+  lastname: Kafkas
   url: 
-  supervisor: 
+  supervisor: [B. Girault, M. Sebban]
   starting_date: 2025
   end_date: 2028
-  team_thematic: 
+  team_thematic: True
 
