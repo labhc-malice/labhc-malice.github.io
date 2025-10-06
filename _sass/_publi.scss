@@ -62,34 +62,47 @@
 }
 
 /* Hide the default text and show the new text when checked */
-.toggleCheckbox:checked ~ #toggleText .allPublications {
+.toggleCheckbox:checked ~ #toggleText .mode1 {
    display: none;
 }
 
-.toggleCheckbox:checked ~ #toggleText .selectedPublications {
+.toggleCheckbox:checked ~ #toggleText .mode2 {
    display: block;
 }
 
-.allPublications {
+.mode1 {
    display: block;
 }
 
-.selectedPublications {
+.mode2 {
    display: none;
 }
 
 
-#exhaustive {
+#labmetry {
    font-size: 80%;
    h2 {
       font-size: 100%;
    }
 }
-.allPublications li {
+#labmetry li {
       margin-bottom: 1em;
 }
 
 .hcentered {
    display: flex;
    justify-content: center;
+}
+
+.hal-iframe {
+   width: 100%;
+   --unoverflow: calc(10px + var(--body-padding-bottom));
+   padding-bottom: var(--unoverflow);
+   box-sizing: border-box;
+   margin-bottom: calc(-1 * var(--unoverflow));
+
+   background: white !important;
+   html[data-theme="dark"] & {
+      filter: invert(100%);
+   }
 }
