@@ -1,5 +1,5 @@
 ---
-layout: reading
+layout: seminar
 key: 2025_seminar_Yanchuao_Xu
 title: Data-Driven Koopman Framework for Modeling Complex Dynamical Systems
 description: A Seminar by Yuanchao Xu (Kyoto University, Japan)
@@ -7,6 +7,10 @@ giscus_comments: false
 date: 2025-10-14
 tags: seminar
 insider: ""
+authors:
+  - name: Yuanchao Xu
+    affiliations:
+      name: Kyoto University, Japan
 ---
 
 **Abstract:**
