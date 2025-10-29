@@ -19,7 +19,7 @@ nav_order: 4
 
 <div id="toggleText">
   <div class="mode1">
-    <iframe class="hal-iframe" onload="setTimeout(() => this.style.height = `${window.innerHeight - this.getBoundingClientRect().top}px`, 1)" src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?struct=1192312&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;ordre_aff=TA&amp;Fen=Aff&amp;css=../css/VisuRubriqueEncadre.css" frameborder="0" scrolling="auto"></iframe>
+    <iframe class="hal-iframe" onload="this.style.height = '6500px'; this.style.marginBottom = '100px'; /*setTimeout(() => this.style.height = `${window.innerHeight - this.getBoundingClientRect().top}px`, 1)*/" src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?struct=1192312&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;ordre_aff=TA&amp;Fen=Aff&amp;css=../css/VisuRubriqueEncadre.css" frameborder="0" scrolling="auto"></iframe>
   </div>
   <div class="mode2">
 
