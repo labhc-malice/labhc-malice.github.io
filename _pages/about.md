@@ -33,7 +33,7 @@ MALICE envisions its activity according to the following three objectives:
 
 <div class="danger-box-titled">
 <span class="title">Open positions CR/ISFP</span>
-<p><strong>Contact <a href="mailto:amaury.habrard@inria.fr">amaury.habrard@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
+<p><strong>Contact <a href="mailto:marc.sebban@inria.fr;amaury.habrard@inria.fr">marc.sebban@inria.fr and amaury.habrard@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
 </div>
 
 <img style="width: 100%" src="{{ 'assets/img/malice-team-2024.jpg' | relative_url }}" />
