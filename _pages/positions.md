@@ -20,5 +20,5 @@ for Inverse Problems in Imaging</b> (<a href="https://jordan-frecon.com/download
 
 <div class="danger-box-titled">
 <span class="title">Open positions CR/ISFP</span>
-<p><strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
+<p><strong>Contact <a href="mailto:amaury.habrard@inria.fr">amaury.habrard@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
 </div>
