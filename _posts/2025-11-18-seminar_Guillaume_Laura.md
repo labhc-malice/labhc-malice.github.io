@@ -1,7 +1,7 @@
 ---
 layout: seminar
 key: 2025_seminar_Guillaume_Laura
-title: Block coordinate descent methods and their equivalence with multilevel methods. 
+title: Block coordinate descent methods and their equivalence with multilevel methods
 description: A Seminar by Guillaume Laura (Université Côte d'Azur, France)
 giscus_comments: false
 date: 2025-11-18
