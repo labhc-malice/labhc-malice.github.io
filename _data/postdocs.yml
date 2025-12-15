@@ -13,7 +13,7 @@
   supervisor: [J. Patracone]
   starting_date: 2025
   end_date: 2025
-  team_thematic: True
+  team_thematic: False
     
 - firstname: Daaloul
   lastname: Chiheb
