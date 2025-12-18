@@ -73,7 +73,7 @@
 - firstname: Erick
   lastname: Gomez
   url: 
-  supervisor: [A. Habrard, F.Garrelie]
+  supervisor: [A. Habrard, F. Garrelie]
   starting_date: 2024
   end_date: 2027
   team_thematic: True  
@@ -81,7 +81,7 @@
 - firstname: Mickael
   lastname: Gault
   url: https://mlgb.fr
-  supervisor: [M.Sebban, R. Emonet, Pierre Bachaud (IFPEN), Benoit Celse (IFPEN) et Adrien Spagnol (IFPEN)]
+  supervisor: [M. Sebban, R. Emonet, Pierre Bachaud (IFPEN), Benoit Celse (IFPEN) et Adrien Spagnol (IFPEN)]
   starting_date: 2025
   end_date: 2028
   team_thematic: True
@@ -97,13 +97,13 @@
 - firstname: Mael
   lastname: Jousset
   url: 
-  supervisor: [E.Brandao, JP. Colombier]
+  supervisor: [E. Brandao, JP. Colombier]
   starting_date: 2025
   end_date: 2028
   
 - firstname: Joan
   lastname: Roux
   url: 
-  supervisor: [E.Brandao, G.Baeza]
+  supervisor: [E. Brandao, G. Baeza]
   starting_date: 2025
   end_date: 2028
