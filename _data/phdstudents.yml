@@ -101,7 +101,7 @@
   starting_date: 2025
   end_date: 2028
   
-firstname: Joan
+- firstname: Joan
   lastname: Roux
   url: 
   supervisor: [E.Brandao, G.Baeza]
