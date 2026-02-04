@@ -107,3 +107,11 @@
   supervisor: [E. Brandao, G. Baeza]
   starting_date: 2025
   end_date: 2028
+  
+- firstname: Diego
+  lastname: Pinto-Suarez
+  url: 
+  supervisor: [J. Patracone, M. Sebban]
+  starting_date: 2025
+  end_date: 2028
+  team_thematic: True  
