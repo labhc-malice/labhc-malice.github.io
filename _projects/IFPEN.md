@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Partnership Inria-IFPEN <br/>(2025-2028)"
+title: "Partnership Inria - IFPEN <br/>(2025-2028)"
 description: ""
 partners:
   - "IFPEN Solaize - Conception, Modélisation, Procédés"
