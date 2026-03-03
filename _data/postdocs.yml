@@ -6,11 +6,18 @@
   end_date: 2025
   team_thematic: True
     
-- firstname: Daaloul
-  lastname: Chiheb
+- firstname: Chiheb
+  lastname: Daaloul
   url: 
   supervisor: [R. Emonet]
   starting_date: 2025
   end_date: 2026
   team_thematic: True
-    
+
+- firstname: Matthieu
+  lastname: Muller
+  url: 
+  supervisor: [J. Patracone, L. Denis]
+  starting_date: 2026
+  end_date: 2028
+  team_thematic: True    
