@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "DYNAMO <br/>(2025-2028)"
+title: "DYNAMO Associated Team <br/>(2025-2028)"
 description: "<b> DYNamical systems, Analysis, and Machine learning for self-Organization of matter </b>"
 partners:
   - "Massimiliano Pontil (Istituto Italiano di Tecnologia, Genoa, Italy)"
