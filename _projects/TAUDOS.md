@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ANR TAUDOS <br/>(2021-2026)
+title: ANR TAUDoS <br/>(2021-2026)
 description: "<b>Theory and Algorithms for the Understanding of Deep learning On Sequential data</b>"
 partners:
   - "LabHC (UJM, CNRS)"
