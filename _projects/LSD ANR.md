@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "ANR LSD <br/>(2025-2028)"
+title: ANR LSD <br/>(2025-2028)
 description: "<b> Leveraging Synthetic Data From Generative Models </b>"
 partners:
   - "UdeM Mila (Canada)"
   - "Inria OCKHAM (France)"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-generativeIA.jpg
 importance: 1
 category: ongoing
 ---
