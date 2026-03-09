@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "ANR FAMOUS <br/>(2024-2026)"
+title: "ANR FAMOUS <br/>(2023-2026)"
 description: "<b> FairMulti-modal Learning </b>"
 partners:
   - "LabHC (UJM, CNRS)"
