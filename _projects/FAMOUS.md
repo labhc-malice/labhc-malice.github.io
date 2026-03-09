@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "ANR FAMOUS <br/>(2023-2026)"
+title: "ANR FAMOUS <br/> (2023-2026)"
 description: "<b> FairMulti-modal Learning </b>"
 partners:
   - "LabHC (UJM, CNRS)"
@@ -8,7 +8,7 @@ partners:
   - "LITIS Rouen"
   - "INT Marseille"
   - "Euranova"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-defaut-malice1.jpg
 importance: 1
 category: ongoing
 ---
