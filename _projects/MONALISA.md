@@ -7,7 +7,7 @@ partners:
   - "DIAG / Univ. Sapienza di Roma (Italy)"
   - "Univ. Novi Sad (Serbia)"
   - ERIC / Univ. Lyon 2 
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-defaut-malice2.jpg
 importance: 1
 category: ongoing
 ---
