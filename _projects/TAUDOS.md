@@ -7,7 +7,7 @@ partners:
   - "LIS Aix-Marseille"
   - "EURA NOVA(Firm)"
   - "MILA (Canadian Site)"
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-TAUDOS.jpg
 redirect: https://remieyraud.github.io/TAUDoS/
 importance: 1
 category: ongoing
