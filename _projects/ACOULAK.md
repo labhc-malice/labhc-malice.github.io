@@ -7,7 +7,7 @@ partners:
   - "CARRTEL"
   - "INRA "
  
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-ACOULAK.jpg
 importance: 1
 category: ongoing
 ---
