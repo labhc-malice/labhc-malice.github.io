@@ -5,7 +5,7 @@ description: "<b> Unfolded proximal neural operators for inverse problems in ima
 partners:
   - "L. Denis (LabHC-UJM)"
 
-img: assets/img/project/logo-defaut-malice6.jpg
+img: assets/img/project/logo-defaut-malice2.jpg
 importance: 1
 category: ongoing
 ---
