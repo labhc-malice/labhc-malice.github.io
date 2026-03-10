@@ -7,7 +7,7 @@ partners:
   - "LIS (Aix-Marseille University)"
   - "AP-HM"
   - "INT (Aix-Marseille University)"
-img: assets/img/project/logo-AI4OP.jpg
+img: assets/img/project/logo-AI4OP 4.jpg
 redirect: https://remieyraud.github.io/AI4OP/
 importance: 1
 category: past
