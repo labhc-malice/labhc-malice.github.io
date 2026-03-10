@@ -8,7 +8,7 @@ partners:
   - "LITIS Rouen"
   - "INT Marseille"
   - "Euranova"
-img: assets/img/project/logo-defaut-malice1.jpg
+img: assets/img/project/logo-defaut-malice3.jpg
 importance: 1
 category: ongoing
 ---
