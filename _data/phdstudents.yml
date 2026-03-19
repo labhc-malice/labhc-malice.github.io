@@ -1,11 +1,3 @@
-- firstname: Fayad
-  lastname: Ali Banna
-  url: 
-  supervisor: [R. Emonet, JP. Colombier, M. Sebban]
-  starting_date: 2022
-  end_date: 2025
-  team_thematic: True
-
 - firstname: Abdel-Rahim
   lastname: Mezidi
   url: 
@@ -29,14 +21,6 @@
   starting_date: 2023
   end_date: 2026 
   team_thematic: True
-
-- firstname: Sayan
-  lastname: Chaki
-  url: 
-  supervisor: [R. Emonet, T. Fournel]
-  starting_date: 2022
-  end_date: 2025
-  team_thematic: False
   
 - firstname: Viktor
   lastname: Mercklé
