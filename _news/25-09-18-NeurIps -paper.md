@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-09-18 09:00:00+0100
+date: 2026-02-22 09:00:00+0100
 inline: true
 ---
 
-Our paper <em>Conformal Online Learning of Deep Koopman Linear Embeddings</em> has been accepted to NeurIPS! <em> Read the article <a href="https://jordan-frecon.com/publications/2025-gao-b-p-neurips-coloke"> here</a>
+Our paper <em>PAC-Bayesian Bounds on Constrained $ f $-Entropic Risk Measures</em> has been accepted to AISTATS !<em>,,accepted as spotlight, top 2.5% of the papers ! Read the article <a href="https://cnrs.hal.science/LABORATOIRE-HUBERT-CURIEN/hal-05314302v2"> here</a>
