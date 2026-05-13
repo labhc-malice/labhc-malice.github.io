@@ -98,4 +98,12 @@
   supervisor: [J. Patracone, M. Sebban]
   starting_date: 2025
   end_date: 2028
-  team_thematic: True  
+  team_thematic: True 
+  
+- firstname: Giovanni
+  lastname: Benedetti Da Rosa
+  url: 
+  supervisor: [R. Emonet, E. Morvant, A. Boisbunon]
+  starting_date: 2026
+  end_date: 2029
+  team_thematic: True
