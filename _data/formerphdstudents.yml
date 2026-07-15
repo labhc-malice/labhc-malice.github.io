@@ -37,3 +37,19 @@
   starting_date: 2022
   end_date: 2025
   team_thematic: False
+  
+  - firstname: Viktor
+  lastname: Mercklé
+  url: 
+  supervisor: [F. Iutzeler, A. Habrard]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False
+  
+- firstname: Dorian
+  lastname: Llavata
+  url: 
+  supervisor: [L. Bossuet, R. Eyraud, V. Grosso, E. Cagli]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False 
