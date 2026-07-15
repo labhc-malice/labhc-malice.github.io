@@ -22,6 +22,13 @@
   end_date: 2024
   team_thematic: False
   
+- firstname: Antoine
+  lastname: Caradot
+  url: 
+  supervisor: [R. Emonet , JP. Colombier, M. Sebban]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: False
 
 - firstname: Volodimir 
   lastname: Mitarchuk
