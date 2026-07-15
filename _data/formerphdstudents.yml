@@ -36,16 +36,8 @@
   supervisor: [R. Emonet, T. Fournel]
   starting_date: 2022
   end_date: 2025
-  team_thematic: True
-  
-  - firstname: Viktor
-  lastname: Mercklé
-  url: 
-  supervisor: [F. Iutzeler, A. Habrard]
-  starting_date: 2022
-  end_date: 2025
-  team_thematic: True
-  
+  team_thematic: True  
+ 
 - firstname: Dorian
   lastname: Llavata
   url: 
