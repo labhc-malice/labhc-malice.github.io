@@ -1,9 +1,9 @@
-- firstname: Antoine
-  lastname: Caradot
+- firstname: Van Thien
+  lastname: Nguyen
   url: 
-  supervisor: [R. Emonet , JP. Colombier, M. Sebban]
-  starting_date: 2022
-  end_date: 2025
+  supervisor: [A. Habrard]
+  starting_date: 2026
+  end_date: 2026
   team_thematic: True
     
 - firstname: Chiheb

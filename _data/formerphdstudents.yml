@@ -22,7 +22,15 @@
   end_date: 2024
   team_thematic: True
       
-- firstname: Fayad
+- firstname: Viktor
+  lastname: Mercklé
+  url: 
+  supervisor: [F. Lutzeler, A. Habrard]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: True
+
+ firstname: Fayad
   lastname: Ali Banna
   url: 
   supervisor: [R. Emonet, JP. Colombier, M. Sebban]
@@ -36,4 +44,13 @@
   supervisor: [R. Emonet, T. Fournel]
   starting_date: 2022
   end_date: 2025
-  team_thematic: False
+  team_thematic: True  
+ 
+- firstname: Dorian     
+  lastname: Llavata
+  url: 
+  supervisor: [L. Bossuet, R. Eyraud, V. Grosso, E. Cagli]
+  starting_date: 2022
+  end_date: 2025
+  team_thematic: True 
+  

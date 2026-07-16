@@ -22,22 +22,6 @@
   end_date: 2026 
   team_thematic: True
   
-- firstname: Viktor
-  lastname: Mercklé
-  url: 
-  supervisor: [F. Iutzeler, A. Habrard]
-  starting_date: 2022
-  end_date: 2025
-  team_thematic: False
-  
-- firstname: Dorian
-  lastname: Llavata
-  url: 
-  supervisor: [L. Bossuet, R. Eyraud, V. Grosso, E. Cagli]
-  starting_date: 2022
-  end_date: 2025
-  team_thematic: False 
-
 - firstname: Hind
   lastname: Atbir
   url: 
@@ -93,9 +77,17 @@
   end_date: 2028
   
 - firstname: Diego
-  lastname: Pinto-Suarez
+  lastname: Pinto Suarez
   url: 
   supervisor: [J. Patracone, M. Sebban]
   starting_date: 2025
   end_date: 2028
-  team_thematic: True  
+  team_thematic: True 
+  
+- firstname: Giovanni
+  lastname: Benedetti Da Rosa
+  url: 
+  supervisor: [R. Emonet, E. Morvant, A. Boisbunon]
+  starting_date: 2026
+  end_date: 2029
+  team_thematic: True
