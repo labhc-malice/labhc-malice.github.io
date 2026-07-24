@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MONALISA <br/>(2025-2029)
+title: ANR MONALISA <br/>(2025-2029)
 description: "Monotone Operators and Neural Architectures - Leveraging Interactions for physically Structured Approximations "
 partners:
   - "CSML / IIT (Italy)"
