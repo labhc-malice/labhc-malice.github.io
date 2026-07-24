@@ -11,6 +11,8 @@ horizontal: false
 
 <!-- pages/positions.md -->
 <div class="positions">
+The team is always open to receiving strong unsolicited applications as they arise.
+
 Here are recent open positions:
 <ul>
 <li>Internship: Spring 2026 (deadline: 08/11/2025) <b>Online Koopman Operator Learning</b> (<a href="https://jordan-patracone.com/download/internship/2025-Intership-LabHC-Koopman.pdf">full proposal</a>)</li> 
@@ -18,5 +20,5 @@ Here are recent open positions:
 
 <div class="danger-box-titled">
 <span class="title">Open positions CR/ISFP</span>
-<p><strong>Contact <a href="mailto:marc.sebban@inria.fr;amaury.habrard@inria.fr">marc.sebban@inria.fr and amaury.habrard@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
+<p><strong>Contact <a href="mailto:marc.sebban@inria.fr">marc.sebban@inria.fr</a> in case you wish to apply to an Inria research associate (CR or ISFP) position in our team</strong></p>
 </div>
