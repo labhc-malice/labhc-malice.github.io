@@ -91,3 +91,20 @@
   starting_date: 2026
   end_date: 2029
   team_thematic: True
+  
+- firstname: Baptiste 
+  lastname: Mathevon
+  url:
+  supervisor: [M.Sebban, A. Habrard, F. Cherfaoui]
+  starting_date: 2026
+  end_date: 2029
+  team_thematic: True
+  
+- firstname: Circée
+  lastname: Chalayer
+  url: 
+  supervisor: [R. Emonet,Q. Bertrand, E. Morvant]
+  starting_date: 2026
+  end_date: 2029
+  team_thematic: True
+  
