@@ -6,7 +6,7 @@ partners:
   - "Dracula Technologies"
   - "ASYGN"
 img: assets/img/project/logo-GREENAI.png
-importance: 7
+importance: 8
 category: ongoing
 ---
 
