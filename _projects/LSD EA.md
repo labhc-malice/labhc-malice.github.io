@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "LSD Associated Team <br/>(2025-2028)"
+title: "LSD Inria Associated Team <br/>(2025-2028)"
 description: "<b> Leveraging Synthetic Data From Generative Models </b>"
 partners:
   - "UdeM Mila (Canada)"
