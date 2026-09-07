@@ -8,7 +8,7 @@ partners:
   - "INRA "
  
 img: assets/img/project/logo-ACOULAK.jpg
-importance: 1
+importance: 7
 category: ongoing
 ---
 
