@@ -8,7 +8,7 @@ partners:
   - "Univ. Novi Sad (Serbia)"
   - ERIC / Univ. Lyon 2 
 img: assets/img/project/logo-neurones.jpg
-importance: 1
+importance: 3
 category: ongoing
 ---
 
