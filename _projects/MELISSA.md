@@ -8,6 +8,6 @@ partners:
   - "MAGNET (INRIA, Lille Univ.)"
 img: assets/img/project/logo-MELISSA.jpg
 redirect: https://anr-melissa.univ-st-etienne.fr/en/index.html
-importance: 1
+importance: 2
 category: ongoing
 ---
