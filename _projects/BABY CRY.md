@@ -7,7 +7,7 @@ partners:
   - "SAINBIOSE-MoVE"
   - "CHU Saint Etienne"
 img: assets/img/project/logo-BABYCRY.jpg
-importance: 1
+importance: 9
 category: ongoing
 ---
 

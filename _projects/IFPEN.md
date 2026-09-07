@@ -5,7 +5,7 @@ description: ""
 partners:
   - "IFPEN Solaize - Conception, Modélisation, Procédés"
 img: assets/img/project/logo-INRIA-IFPEN.jpg
-importance: 1
+importance: 9
 category: ongoing
 ---
 

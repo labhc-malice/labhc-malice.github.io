@@ -9,7 +9,7 @@ partners:
   - "INT Marseille"
   - "Euranova"
 img: assets/img/project/logo-defaut-malice3.jpg
-importance: 1
+importance: 9
 category: ongoing
 ---
 

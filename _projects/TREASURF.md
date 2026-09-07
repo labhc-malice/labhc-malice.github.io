@@ -6,7 +6,7 @@ partners:
   - "F.Garrelie and JP Colombier"
   - "LabHC (UJM, CNRS)"
 img: assets/img/project/logo-defaut-malice6.jpg
-importance: 1
+importance: 9
 category: ongoing
 ---
 

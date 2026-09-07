@@ -6,7 +6,7 @@ partners:
   - "L. Denis (LabHC-UJM)"
 
 img: assets/img/project/logo-defaut-malice2.jpg
-importance: 1
+importance: 9
 category: ongoing
 ---
 
