@@ -9,7 +9,7 @@ partners:
   - "LPT & IMT (Toulouse)"
   - "E.Morvant (LabHC-UJM)  "
 img: assets/img/project/logo-defaut-malice6.jpg
-importance: 1
+importance: 5
 category: ongoing
 ---
 
