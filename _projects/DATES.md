@@ -7,7 +7,7 @@ partners:
   - "ERICSSON (Firm)"
 
 img: assets/img/project/logo-defaut-malice6.jpg
-importance: 1
+importance: 6
 category: ongoing
 ---
 
