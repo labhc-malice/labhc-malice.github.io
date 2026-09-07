@@ -6,7 +6,7 @@ partners:
   - "UdeM Mila (Canada)"
   - "Inria OCKHAM (France)"
 img: assets/img/project/logo-generativeIA.jpg
-importance: 1
+importance: 4
 category: ongoing
 ---
 
