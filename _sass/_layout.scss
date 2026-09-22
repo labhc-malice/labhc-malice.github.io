@@ -66,3 +66,28 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+.projects {
+  
+  > div.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+    height: auto !important;
+    width: auto !important;
+
+    >* {
+      &.grid-sizer {
+        display: none !important;;
+      } 
+
+      display: initial !important;
+      position: initial !important;
+      
+      .card {
+        height: 100%;
+      }
+    }
+  }
+  
+}
