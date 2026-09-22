@@ -14,7 +14,7 @@ horizontal: false
 The team is always open to receiving strong unsolicited applications as they arise.
 Here are recent open positions:
 <ul>
-<li>Internship: Spring 2026 (deadline: 08/11/2025) <b>Online Koopman Operator Learning</b> (<a href="https://jordan-patracone.com/download/internship/2025-Intership-LabHC-Koopman.pdf">full proposal</a>)</li> 
+<li>Internship: <b>Online Koopman Operator Learning</b> (<a href="https://jordan-patracone.com/download/internship/2025-Intership-LabHC-Koopman.pdf">full proposal</a>)</li> 
 
 
 <div class="danger-box-titled">
