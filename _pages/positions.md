@@ -11,8 +11,8 @@ horizontal: false
 
 <!-- pages/positions.md -->
 <div class="positions">
-The team is always open to receiving strong unsolicited applications as they arise.
-Here are recent open positions:
+The team is always open to receiving strong unsolicited applications as they arise.<br>
+Here are recent open positions :
 <ul>
 <li>Internship: <b>Online Koopman Operator Learning</b> (<a href="https://jordan-patracone.com/download/internship/2025-Intership-LabHC-Koopman.pdf">full proposal</a>)</li> 
 
