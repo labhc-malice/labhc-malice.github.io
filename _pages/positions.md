@@ -14,7 +14,7 @@ horizontal: false
 The team is always open to receiving strong unsolicited applications as they arise.<br>
 Here are recent open positions :
 <ul>
-<li>Internship: <b>Online Koopman Operator Learning</b> (<a href="https://jordan-patracone.com/download/internship/2025-Intership-LabHC-Koopman.pdf">full proposal</a>)</li> 
+<li>Internship: <b>Learning hybrid black-box AI models</b> (<a href="https://jordan-patracone.com/download/internship/2027-internship-InriaLabHC-HybridAI.pdf">full proposal</a>)</li> 
 
 
 <div class="danger-box-titled">
