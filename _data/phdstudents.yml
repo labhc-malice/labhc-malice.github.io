@@ -108,3 +108,10 @@
   end_date: 2029
   team_thematic: True
   
+  - firstname: Zakaria
+  lastname: Zouaoui
+  url: 
+  supervisor: [JP Banon, A. Habrard, V.Kalt, J.Patracone]
+  starting_date: 2026
+  end_date: 2029
+  team_thematic: True
