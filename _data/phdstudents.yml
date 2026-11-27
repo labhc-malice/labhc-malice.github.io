@@ -111,20 +111,20 @@
 - firstname: Zakaria
   lastname: Zouaoui
   url: 
-  supervisor: [JP.Banon, A. Habrard, V. Kalt, J. Patracone]
+  supervisor: [JP. Banon, A. Habrard, V. Kalt, J. Patracone]
   starting_date: 2026
   end_date: 2029
    
 - firstname: Alexander
   lastname: Czernik
   url: 
-  supervisor: [A. Habrard, R.Emonet, Q.Bertrand]
+  supervisor: [A. Habrard, R.Emonet, Q. Bertrand]
   starting_date: 2026
   end_date: 2029
   
 - firstname: Matias 
   lastname: Grynberg Portnoy
   url: 
-  supervisor: [R.Emonet, Q. Bertrand]
+  supervisor: [R. Emonet, Q. Bertrand]
   starting_date: 2026
   end_date: 2029
